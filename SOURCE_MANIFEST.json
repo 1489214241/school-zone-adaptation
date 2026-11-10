@@ -8,8 +8,8 @@
     "bytes": 108
   },
   "AGENTS.md": {
-    "sha256": "f306b955d7575f4bd921fe25bda6a9128af35f4f8e713a2eeff2e3de479302ca",
-    "bytes": 1570
+    "sha256": "727c5aebc01463cf16eeeaaee7a2fe5cdc1931574f8e0f42d282e93850394273",
+    "bytes": 1895
   },
   "configs/a_platform_list_input_20261106.json": {
     "sha256": "f64fd8a66f5f8d04e5d965f5245dda539e07d20147f6f1fa3e1cce9482d89567",
@@ -591,6 +591,10 @@
     "sha256": "105ea5bea97e54a9a98bf28bce504e9c6323d39428511b3d3836890167d53a40",
     "bytes": 3823
   },
+  "docs/GITHUB_TRANSFER.md": {
+    "sha256": "676ceab4b2cfc1c8b9108f4ab5fec27015985cfbd6f0e8eba3d35f84d0775f46",
+    "bytes": 3059
+  },
   "docs/ORIGINAL_README.md": {
     "sha256": "e7396e2358021fe2589f584fc3eb551bffddffe45ca6567c5a9e9329fabd5905",
     "bytes": 21735
@@ -620,12 +624,12 @@
     "bytes": 92
   },
   "HANDOFF.md": {
-    "sha256": "b17a9a5e563f01fc36f1e39a32258b8795d463cbba8f23e2c0c6f5892e019399",
-    "bytes": 2833
+    "sha256": "c444fdbdc6ee195cb6603f6f417269e68bfca62bfea7a7b1d99f5949b9b5afa7",
+    "bytes": 2986
   },
   "README.md": {
-    "sha256": "5d56642c8fe1e686ada625e8cd89440281ecc6388a8b493f8be9bf477514558a",
-    "bytes": 2703
+    "sha256": "84d628bbc12f2943d9a9e9f5d10d710584c0034f447e8f924cfcd27c11dbe3f0",
+    "bytes": 2742
   },
   "requirements-data.txt": {
     "sha256": "2e86a0a5f4d6ab31175a8df5ad52a1c23c93ae8f967caf75fafce6e1aebf3fe5",

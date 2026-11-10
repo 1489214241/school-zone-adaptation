@@ -36,4 +36,4 @@ cd school-zone-adaptation
 
 ## 结果与同步
 
-首次克隆后用 `git pull --ff-only` 获取更新。`outputs/` 被忽略，不随代码推送。完成后打包新增概率、配置、环境与验证记录传回原机，使用原机冻结基线统一评分。服务器没有历史概率，不能直接运行完整 `adaptation_trial.py report pre_v1`。
+首次克隆后用 `git pull --ff-only` 获取更新。`outputs/` 被忽略，不随代码推送。用户已授权通过 GitHub 回传本轮结果。历史基线从 Release 下载，新结果上传独立 Release；具体流程见 `docs/GITHUB_TRANSFER.md`。服务器仍缺少原机已完成的试验概率，完整合并评分在原机执行。
