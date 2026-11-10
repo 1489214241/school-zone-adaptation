@@ -39,3 +39,13 @@
 ## 后续工作
 
 在独立目录解压结果，与原机保留的 122 项概率按任务清单核对合并，再依照 `docs/EXPERIMENT_PLAN.md` 的冻结方案统一评分。本次上传不重跑训练、不改变评价阈值、不作效果提升结论。
+
+## 分卷下载与还原
+
+由于上传链路中断，Release 将原始 ZIP 按字节切为 14 个分卷（前 13 卷各 10 MiB），不改变原始 ZIP 内容。请下载全部 `.part001` 至 `.part014`、`parts-manifest.json` 和 `assemble_results.py` 到同一个目录，再运行：
+
+```bash
+python assemble_results.py
+```
+
+脚本逐卷校验大小和 SHA-256，并验证合并后的完整 ZIP 哈希，然后生成 `server-results-20261110-120807.zip`。分卷不能单独解压。原始完整 ZIP 的 `.sha256` 也随 Release 提供。
