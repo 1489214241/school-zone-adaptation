@@ -1,0 +1,74 @@
+{
+  "说明": "默认＋萧山范围描述点名的核实别名（rules.hangzhou_names = policy_text_aliases）。方案见 科研推进/萧山点名别名修复_20261107/方案.md。",
+  "districts": [
+    "天心区",
+    "芙蓉区",
+    "雨花区",
+    "开福区",
+    "拱墅区",
+    "萧山区",
+    "富阳区",
+    "临安区"
+  ],
+  "rules": {
+    "preset": "unified_20261106",
+    "hangzhou_names": "policy_text_aliases"
+  },
+  "evidence": {
+    "pair_blocks": [
+      "distance",
+      "named_reference",
+      "policy",
+      "agreement",
+      "disagreement",
+      "crossing",
+      "within_2km",
+      "learned_boundary",
+      "same_community"
+    ],
+    "school_blocks": [
+      "distance",
+      "policy",
+      "within_2km",
+      "community_clause",
+      "name"
+    ],
+    "exclusion_to_model": "all",
+    "layout": "compact"
+  },
+  "model": {
+    "width": 32
+  },
+  "train": {
+    "items": {
+      "target_known": true,
+      "other_known": true,
+      "other_answers": true
+    },
+    "steps": 40,
+    "lr": 0.003,
+    "reg": {
+      "default": 0.01
+    },
+    "seeds": [
+      20261131,
+      20261132,
+      20261133,
+      20261134,
+      20261135,
+      20261136,
+      20261137,
+      20261138,
+      20261139,
+      20261140
+    ]
+  },
+  "evaluate": {
+    "bootstrap_seed": 20261104,
+    "draws": 3000
+  },
+  "output_dir": "outputs/xs_aliases",
+  "data": {
+    "hangzhou_gold": "map_list"
+  }
+}

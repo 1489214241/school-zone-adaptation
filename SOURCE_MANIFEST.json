@@ -1,0 +1,762 @@
+{
+  ".gitattributes": {
+    "sha256": "32e7dd803aee2e2ee6694e03ef072a85047d045a6894e4248046874c0fc32cb5",
+    "bytes": 71
+  },
+  ".gitignore": {
+    "sha256": "b43cb8a6a802dab5ff391aec4a619a33a522ca8d9df43e8b09dc84c2000c799a",
+    "bytes": 108
+  },
+  "AGENTS.md": {
+    "sha256": "f306b955d7575f4bd921fe25bda6a9128af35f4f8e713a2eeff2e3de479302ca",
+    "bytes": 1570
+  },
+  "configs/a_platform_list_input_20261106.json": {
+    "sha256": "f64fd8a66f5f8d04e5d965f5245dda539e07d20147f6f1fa3e1cce9482d89567",
+    "bytes": 1357
+  },
+  "configs/ablation_hz_text_names.json": {
+    "sha256": "c8e23725d0727c30a1e02bd0d9c32a37fa5822ac46ac15229a1ce6301dc9bc02",
+    "bytes": 1402
+  },
+  "configs/ablation_same_city.json": {
+    "sha256": "b8352acff528630ace8d3ac6210b006eb71cb851e81ad85ee921d640112eaf06",
+    "bytes": 1312
+  },
+  "configs/default.json": {
+    "sha256": "06776b575d77a5b6e5580eeed3ecd0d877ecd28390db584953a2a94432408605",
+    "bytes": 1802
+  },
+  "configs/final_20261103.json": {
+    "sha256": "b8f0b71c9f0438ff3c319cb0842a95443e4fbb4cb4275061b015662456c16faa",
+    "bytes": 1301
+  },
+  "configs/hz_boundary_v2.json": {
+    "sha256": "966abfa9740883b32dbd351e580bd8aa15d40697eac084d6b5c38ac8a1ef3b0b",
+    "bytes": 1458
+  },
+  "configs/hz_comm_E.json": {
+    "sha256": "2c9e82243001b950061af4b2911f947efb1b039f9aa694c8fc903149c101b6f8",
+    "bytes": 1473
+  },
+  "configs/hz_comm_ER.json": {
+    "sha256": "116fd5adc1a58b54759d09a36060a3866f1a5cc0d1e3e92f8e81b23fd1b1f1ce",
+    "bytes": 1476
+  },
+  "configs/hz_map_list_gold.json": {
+    "sha256": "3cdd2b1cc2cd3ee295ecfefbd50e5e7185af8e037407f169fec71f325e9d4582",
+    "bytes": 1590
+  },
+  "configs/name_correction.json": {
+    "sha256": "ba886000623fb0e641b6d56a70cba65ee2b8cc979f8583c1696f77cb6aba4e56",
+    "bytes": 776
+  },
+  "configs/newdist_A.json": {
+    "sha256": "e1b9aa438fd7283e48aa96bfc674e82b30529a110b939b7a7c6671b1bef68ece",
+    "bytes": 1913
+  },
+  "configs/newdist_A_nocomm.json": {
+    "sha256": "527ee194cb474c080dfd3b722aa91434453586205d8f931b7bb77a8233a4cc09",
+    "bytes": 1878
+  },
+  "configs/newdist_B.json": {
+    "sha256": "e395b2954ffa33b7e2db90c6a296e077c9711b10d467525500b326398e5e6bf3",
+    "bytes": 1904
+  },
+  "configs/xs_aliases.json": {
+    "sha256": "9eefb3e2879d3164f8e25dee96458b8c48600f40b516a601f513a58d0917b749",
+    "bytes": 1426
+  },
+  "data/lines/杭州.pkl": {
+    "sha256": "9b04a2c19c90dd728ee7c8b0c01beb21e66afd78313ae8cb6439aff46356c319",
+    "bytes": 6511754
+  },
+  "data/lines/杭州_新区.pkl": {
+    "sha256": "6c9e9514a8f9b127a1e0a7532175672bc41fb31c7dea38f7846199b82ef901b2",
+    "bytes": 10748526
+  },
+  "data/lines/长沙.pkl": {
+    "sha256": "65e988e32e9a287d2a7206bebcbde8c399f9555042df5f2be62890479a01c5fd",
+    "bytes": 6446232
+  },
+  "data/README.txt": {
+    "sha256": "1c8add46f5c8ec3e4e36c002b24506849ec51bfb830f7e4c0d5a3c9b7c7f2a5b",
+    "bytes": 89
+  },
+  "data/上城区/answers.json": {
+    "sha256": "546e7d0ee58da96de0759ee0ab20ea525743476b3d5c2fb68c223d327e698bd9",
+    "bytes": 49
+  },
+  "data/上城区/answers_list_gold.json": {
+    "sha256": "dba8b98799a8305dc758c1bc372680874270150e196c63e86510864ad7c59a2c",
+    "bytes": 20459
+  },
+  "data/上城区/arrays.npz": {
+    "sha256": "eb84a287d7be3be76762214c725e4429d96def7151c51616a4dca0a064ff2f1d",
+    "bytes": 8669
+  },
+  "data/上城区/community_mca.npz": {
+    "sha256": "de6437ee1b34e1dcc35ceb2b5d43cfbcd3124bb46cfe9754ae420cbbe639db0a",
+    "bytes": 4504
+  },
+  "data/上城区/district.json": {
+    "sha256": "9a77e4d4db348252d4a0f3f8f030c8b9226cf71ce425f54be4a7f3cedfffb008",
+    "bytes": 11728
+  },
+  "data/上城区/exceptions.json": {
+    "sha256": "47727a4d0a2a03b6d72e03cfce331427f7b9017b9e72360ffafcdb154b3a11e3",
+    "bytes": 54
+  },
+  "data/上城区/extra_evidence.npz": {
+    "sha256": "6ae615b3a09a272fb7951d889976b38f7b5d06a27cdb0a01bf26a405ac1cfe6a",
+    "bytes": 1796
+  },
+  "data/上城区/observations/arrays.npz": {
+    "sha256": "2c2bd01d09b8ade6a10994777ae90615472ad34095eaddcdd8b0d02936096ae7",
+    "bytes": 12530
+  },
+  "data/上城区/observations/names_policy_text.json": {
+    "sha256": "f7b2a2f0aad7929ffaf867dbf1a8164e57e4df13f1a059782f362e9d8eb45d09",
+    "bytes": 173
+  },
+  "data/上城区/observations/observations.json": {
+    "sha256": "751532a9e03341a6282143c85ee82e8193a44537a02d5e8e1faf176549976808",
+    "bytes": 268229
+  },
+  "data/上城区/observations_bv2/arrays.npz": {
+    "sha256": "2c2bd01d09b8ade6a10994777ae90615472ad34095eaddcdd8b0d02936096ae7",
+    "bytes": 12530
+  },
+  "data/上城区/observations_bv2/observations.json": {
+    "sha256": "751532a9e03341a6282143c85ee82e8193a44537a02d5e8e1faf176549976808",
+    "bytes": 268229
+  },
+  "data/临安区/answers.json": {
+    "sha256": "9f058978ff9bbffb778984af7c05075c7096490a677e11b7208a6533be60ebb7",
+    "bytes": 15431
+  },
+  "data/临安区/answers_list_gold.json": {
+    "sha256": "9b9ec958a5a0902345d86e48fcfd2c268bac46cfb2d0cfcbb6a7ccc604d781b7",
+    "bytes": 6575
+  },
+  "data/临安区/arrays.npz": {
+    "sha256": "5d695437fdad9621bbb5c8ebf419997e79f62fe0120e91ed4f5e4644df5a11f5",
+    "bytes": 8245
+  },
+  "data/临安区/community_mca.npz": {
+    "sha256": "8125fce08a65118f99b4026407127583eb0fa884becc057cddf43234a1ba2bc6",
+    "bytes": 2459
+  },
+  "data/临安区/district.json": {
+    "sha256": "57c48371069ce69916ee6c3fe2b0f7b49352772638df6aa8f87c1144ad0aeee9",
+    "bytes": 11666
+  },
+  "data/临安区/exceptions.json": {
+    "sha256": "992b9cf5e555238800bdf764d238bfc09d3725edb314b8c06023b9f9631c8d11",
+    "bytes": 59
+  },
+  "data/临安区/extra_evidence.npz": {
+    "sha256": "17f1324272a7565447ed54fd33f0794222f755c362ddd62a507d532c316c18ba",
+    "bytes": 1483
+  },
+  "data/临安区/observations/arrays.npz": {
+    "sha256": "85f0e2a9085c5332e4f202d3740ba392e364b87e28de0cc10d6044e9c321780d",
+    "bytes": 56652
+  },
+  "data/临安区/observations/names_policy_text.json": {
+    "sha256": "f7b2a2f0aad7929ffaf867dbf1a8164e57e4df13f1a059782f362e9d8eb45d09",
+    "bytes": 173
+  },
+  "data/临安区/observations/observations.json": {
+    "sha256": "a83fc6b8869ab53e7d453b512f5bddcbf7d0b76d71df333d2f6386847719b339",
+    "bytes": 264064
+  },
+  "data/临安区/observations_bv2/arrays.npz": {
+    "sha256": "093eff43c818d6765f0290c86a20c3f23bf94d5f42150720057ca05e27f0c194",
+    "bytes": 62927
+  },
+  "data/临安区/observations_bv2/observations.json": {
+    "sha256": "fec5a07fe6fc0a27d21893d36f52f9edf9698d1cdeb883ee631c17cb1aeb8e46",
+    "bytes": 261798
+  },
+  "data/天心区/answers.json": {
+    "sha256": "b2072e37998e9fe3e61b7608c326b590747570b29d2be429fc1059b8b5446a9b",
+    "bytes": 38017
+  },
+  "data/天心区/arrays.npz": {
+    "sha256": "9f20858f0dc74239c149ed1a649cdebc3cc4912b9368a937e671ebae1f99f708",
+    "bytes": 14936
+  },
+  "data/天心区/district.json": {
+    "sha256": "b6eeba32f6b70d06213ad389c1f9f99ea1af02a94132a02123fd93354785cb66",
+    "bytes": 18060
+  },
+  "data/天心区/exceptions.json": {
+    "sha256": "eceec9758be2d9e3c10909061119f46dfa4d11dcc2345c2d84674efbf35e6985",
+    "bytes": 523
+  },
+  "data/天心区/extra_evidence.npz": {
+    "sha256": "c29523d24cb5936f970020d6528dbfab4f50be7b9146ca57877bf9611fafdabc",
+    "bytes": 2972
+  },
+  "data/天心区/observations/arrays.npz": {
+    "sha256": "3273ad9eace7bc2dbe2c48bf27d27e160e9ad0729c2438f45552d7a4111409c6",
+    "bytes": 19896
+  },
+  "data/天心区/observations/observations.json": {
+    "sha256": "8a00d3166e096b923ede0ebc6c605fd8a45738366f634a336a8881328aefd68f",
+    "bytes": 94572
+  },
+  "data/富阳区/answers.json": {
+    "sha256": "31e943fd7073f6db0fa64bbff890f68f5280e357d57bd5b09b1b698c1a8ce69e",
+    "bytes": 21179
+  },
+  "data/富阳区/answers_list_gold.json": {
+    "sha256": "4b56ff2efdd2b9147678afbf5352cee5515aa3b675f77ac49e01b06284c50837",
+    "bytes": 1559
+  },
+  "data/富阳区/arrays.npz": {
+    "sha256": "10df988a3f58d3779339a33fa7bbef2c8398487059095966c73c8ec008a1a27a",
+    "bytes": 7611
+  },
+  "data/富阳区/community_mca.npz": {
+    "sha256": "98d07dad1740c319c695dd337fd8242488e60ae4ca39a7aa929ba749cf4297d8",
+    "bytes": 2478
+  },
+  "data/富阳区/district.json": {
+    "sha256": "63b488e1a2e1040643a73d807e0d11170590c0871c0a082ecc9bf4c777053485",
+    "bytes": 11996
+  },
+  "data/富阳区/exceptions.json": {
+    "sha256": "992b9cf5e555238800bdf764d238bfc09d3725edb314b8c06023b9f9631c8d11",
+    "bytes": 59
+  },
+  "data/富阳区/extra_evidence.npz": {
+    "sha256": "9fa30725331010732d1d43df989a2227d8058a94c587669f9c56471ba8d54252",
+    "bytes": 1483
+  },
+  "data/富阳区/observations/arrays.npz": {
+    "sha256": "5fcdcaf453e00a46c18922cac7e90312f4045e114e213c6c9d6ae0d27932509e",
+    "bytes": 56695
+  },
+  "data/富阳区/observations/names_policy_text.json": {
+    "sha256": "f7b2a2f0aad7929ffaf867dbf1a8164e57e4df13f1a059782f362e9d8eb45d09",
+    "bytes": 173
+  },
+  "data/富阳区/observations/observations.json": {
+    "sha256": "f49ce3b64547e85e4f2223feae136e97c54b3a81b19770d6b0da6c23ab6c8394",
+    "bytes": 256947
+  },
+  "data/富阳区/observations_bv2/arrays.npz": {
+    "sha256": "0438b9ff3827c6ca6d4a7230ab71714a46fe0df510df857324c4441d18bc7808",
+    "bytes": 57266
+  },
+  "data/富阳区/observations_bv2/observations.json": {
+    "sha256": "e5a83cc613933c6b66503b52ab3cf36ab116a18d6c90fba0db3cd7c42bd3ebee",
+    "bytes": 256901
+  },
+  "data/开福区/answers.json": {
+    "sha256": "1a38060818acc8e2c1e03e3aaf93af3ed4870ae48695d40098123c85d18ea23f",
+    "bytes": 50240
+  },
+  "data/开福区/arrays.npz": {
+    "sha256": "67865da86a1f58a5c06a67c67c5445a56cb5588f6d722baf358ae54c4f52c7a3",
+    "bytes": 24044
+  },
+  "data/开福区/district.json": {
+    "sha256": "5d68f3f9bfb6c0596a1ab0548efe4ceafeab058f9f32d5227d25ca0db7e254bd",
+    "bytes": 20680
+  },
+  "data/开福区/exceptions.json": {
+    "sha256": "992b9cf5e555238800bdf764d238bfc09d3725edb314b8c06023b9f9631c8d11",
+    "bytes": 59
+  },
+  "data/开福区/extra_evidence.npz": {
+    "sha256": "76ff9d72447634b6d0a291d66f6fb8788c4be63bddfb90a4ac0e6ec0ef9e8c2a",
+    "bytes": 4444
+  },
+  "data/开福区/observations/arrays.npz": {
+    "sha256": "39840d13703734aecc6a06297afdf941b8176977e7e1ce545b6b483d72595f57",
+    "bytes": 22571
+  },
+  "data/开福区/observations/observations.json": {
+    "sha256": "22b2e87426f230c0b03000a399b4766cd1470b5f945a8c10e41c36077408509d",
+    "bytes": 147015
+  },
+  "data/拱墅区/answers.json": {
+    "sha256": "2a4e8868c4d33b046f90cbd34d65782aaa98ee77ad8ce1b54fc1e5c43cbc0a95",
+    "bytes": 31200
+  },
+  "data/拱墅区/answers_list_gold.json": {
+    "sha256": "02e95e7acb91b09aeb6df0a24895d4c37c801cbf33764a06056e7d73c09723bc",
+    "bytes": 12924
+  },
+  "data/拱墅区/arrays.npz": {
+    "sha256": "f87c96ae4a3d160c604cac012afaec8362dba8eff82121be30c96ab0bff5f1cc",
+    "bytes": 17049
+  },
+  "data/拱墅区/community_mca.npz": {
+    "sha256": "fb8658ccecc6cb9eeeb3af7b5b4011e441086f9834b46579e6fc74c00827576f",
+    "bytes": 6119
+  },
+  "data/拱墅区/district.json": {
+    "sha256": "5dada43258a4acc6c4e3aaa802baecab36af1beef327ab0a8bf315dfe4bc156c",
+    "bytes": 23615
+  },
+  "data/拱墅区/exceptions.json": {
+    "sha256": "992b9cf5e555238800bdf764d238bfc09d3725edb314b8c06023b9f9631c8d11",
+    "bytes": 59
+  },
+  "data/拱墅区/extra_evidence.npz": {
+    "sha256": "46655ba8ec551806844c7afa5753d70879f25ce8380d6460e6e1bba49f1be713",
+    "bytes": 2620
+  },
+  "data/拱墅区/observations/arrays.npz": {
+    "sha256": "ebc2ae9ed0f8da6340bc2437a41906dc96b4c5eebb208ae4d19498769cc15468",
+    "bytes": 56799
+  },
+  "data/拱墅区/observations/names_policy_text.json": {
+    "sha256": "9ed17c15c239e4950720e1ea007a3544cd3334d4014411b7136a16092239fafe",
+    "bytes": 261
+  },
+  "data/拱墅区/observations/observations.json": {
+    "sha256": "bc1d39aa1113d225542bc1798d43fdbd60afa690614f86ddcaed82c2370a2cb7",
+    "bytes": 283119
+  },
+  "data/拱墅区/observations_bv2/arrays.npz": {
+    "sha256": "1461312632450a4fcf874a7493210f9a4a97fd9175102a7b90fa56d7b30fdd19",
+    "bytes": 66467
+  },
+  "data/拱墅区/observations_bv2/observations.json": {
+    "sha256": "c578122d0b5fcc5ef3380dae00e26e261d27c294b83ff9a65a062df1ad8703a6",
+    "bytes": 282861
+  },
+  "data/滨江区/answers.json": {
+    "sha256": "23314080bcd3e92ba8352bba570959bcb39785b150fdf11ec837f50287d063f4",
+    "bytes": 6151
+  },
+  "data/滨江区/answers_list_gold.json": {
+    "sha256": "acd3fe579d2313262ac28777d8c5cf55e5038da7bfaab874718c61458a8be164",
+    "bytes": 5150
+  },
+  "data/滨江区/arrays.npz": {
+    "sha256": "dde84eca5fe16d705ad1abfb0e9fc50107c26f8788595fcf424ed16d4c7ded12",
+    "bytes": 4571
+  },
+  "data/滨江区/community_mca.npz": {
+    "sha256": "60582915ec1734054a88b321950efc6cf30390d4cb7d2470185c97242494ac01",
+    "bytes": 1874
+  },
+  "data/滨江区/district.json": {
+    "sha256": "dbc33fe66fc5da1ee25caab54ee07b5a06e6ce85e24d42c103e091f267a4f421",
+    "bytes": 5642
+  },
+  "data/滨江区/exceptions.json": {
+    "sha256": "47727a4d0a2a03b6d72e03cfce331427f7b9017b9e72360ffafcdb154b3a11e3",
+    "bytes": 54
+  },
+  "data/滨江区/extra_evidence.npz": {
+    "sha256": "a009b6a3b3862905a712f3bac473ad86ce423bf7b08ef9df7cd09e70c2ff089c",
+    "bytes": 1094
+  },
+  "data/滨江区/observations/arrays.npz": {
+    "sha256": "282b133e00de55c137cfb190d524f93a001fc7b64721c1157e6a97740b77b3a1",
+    "bytes": 16276
+  },
+  "data/滨江区/observations/names_policy_text.json": {
+    "sha256": "83d65b46cdaddfac15540ad6f29cdc5f5617f828cf3df881b5d0b4ec8ee0c773",
+    "bytes": 189
+  },
+  "data/滨江区/observations/observations.json": {
+    "sha256": "062cee3f5372e9017cefc4a5c30a12caa3d2bcf46df26d0d934c772387186a2b",
+    "bytes": 253450
+  },
+  "data/滨江区/observations_bv2/arrays.npz": {
+    "sha256": "282b133e00de55c137cfb190d524f93a001fc7b64721c1157e6a97740b77b3a1",
+    "bytes": 16276
+  },
+  "data/滨江区/observations_bv2/observations.json": {
+    "sha256": "062cee3f5372e9017cefc4a5c30a12caa3d2bcf46df26d0d934c772387186a2b",
+    "bytes": 253450
+  },
+  "data/芙蓉区/answers.json": {
+    "sha256": "5d5423892417d2faed8cbfc55bf6d78c7396cdad7d4ae43e3d542848439e4122",
+    "bytes": 34197
+  },
+  "data/芙蓉区/arrays.npz": {
+    "sha256": "428af2c560862324f315816476c6c7812f2e486d1e02e6e633411bc5f87ac66e",
+    "bytes": 15448
+  },
+  "data/芙蓉区/district.json": {
+    "sha256": "27e4ec441d33d738e5d323470204e50897978ceef86555ba4e42a4e94dca84c1",
+    "bytes": 19470
+  },
+  "data/芙蓉区/exceptions.json": {
+    "sha256": "992b9cf5e555238800bdf764d238bfc09d3725edb314b8c06023b9f9631c8d11",
+    "bytes": 59
+  },
+  "data/芙蓉区/extra_evidence.npz": {
+    "sha256": "e2e31b9b1464561365eec8bbe6f0c92a6cbeb50a0704a35e0c6d20dd185e7fe2",
+    "bytes": 3022
+  },
+  "data/芙蓉区/observations/arrays.npz": {
+    "sha256": "00f70c759a4f9d98310d427caa8b3c56ac44b50dcf823c8d4697dbd38f702240",
+    "bytes": 27276
+  },
+  "data/芙蓉区/observations/observations.json": {
+    "sha256": "90735aa2f88e040d8553ddd52e7b075b3753a05db2cf6267b862b50245684eb0",
+    "bytes": 101191
+  },
+  "data/萧山区/answers.json": {
+    "sha256": "89909013d15207d2e05fecebfdf0981feba54cb6dd5d95b12b6a737310f80172",
+    "bytes": 27788
+  },
+  "data/萧山区/answers_list_gold.json": {
+    "sha256": "55f82e0ff49c45ae7c3c4c23244b7a3205106ef34d6681f927ca1b4d2e2eb7c9",
+    "bytes": 9569
+  },
+  "data/萧山区/arrays.npz": {
+    "sha256": "c3751189e13cce0d839db6c1b6bed4f60a18265d694ea99b60e2ba0fff9db9b9",
+    "bytes": 14258
+  },
+  "data/萧山区/community_mca.npz": {
+    "sha256": "6e8f0413fd5c369c5fcfd50bea2c5ecf48f8a43e32e47b897615214b52e0dfe8",
+    "bytes": 7702
+  },
+  "data/萧山区/district.json": {
+    "sha256": "30c26bb70bc19de0ef2567a1d04a709b910b78d26441c43c12b6dd338d6c9078",
+    "bytes": 19699
+  },
+  "data/萧山区/exceptions.json": {
+    "sha256": "992b9cf5e555238800bdf764d238bfc09d3725edb314b8c06023b9f9631c8d11",
+    "bytes": 59
+  },
+  "data/萧山区/extra_evidence.npz": {
+    "sha256": "785ee38afcc979bd073540318ec5e54cdf80c0e870d4f8a398b49f2ab33fd1b3",
+    "bytes": 3269
+  },
+  "data/萧山区/observations/arrays.npz": {
+    "sha256": "2da82b8f99d3f9757895866148f57760fd60c7524ba4de52ae039811ce9b0eef",
+    "bytes": 57065
+  },
+  "data/萧山区/observations/names_policy_text.json": {
+    "sha256": "f3e2d54cfc1a40fe6e689c3c5b4fd125c7d9eb79e0ac2edebae0470bedf71d96",
+    "bytes": 1640
+  },
+  "data/萧山区/observations/names_policy_text_aliases.json": {
+    "sha256": "378428047bcf60eb682f4bb2d82426b9d06cad573719d9837d0a19103717540a",
+    "bytes": 756
+  },
+  "data/萧山区/observations/observations.json": {
+    "sha256": "b117d9f1988a0eee80908455cb44cd2cf2b66aedbf140c7ec4954c52541b1051",
+    "bytes": 290049
+  },
+  "data/萧山区/observations_bv2/arrays.npz": {
+    "sha256": "8d38d125aa8e0d43ce65131f5084b654f52f4d027e2b8a20c00e53858ded7c1d",
+    "bytes": 57430
+  },
+  "data/萧山区/observations_bv2/observations.json": {
+    "sha256": "60ff41f2608980d2ded9ccfea1fb2632bb20a63607ea1266514619b44330dab5",
+    "bytes": 289994
+  },
+  "data/西湖区/answers.json": {
+    "sha256": "546e7d0ee58da96de0759ee0ab20ea525743476b3d5c2fb68c223d327e698bd9",
+    "bytes": 49
+  },
+  "data/西湖区/answers_list_gold.json": {
+    "sha256": "c5e8e1ba364d8760cd9b5eb364322f9d1e71481600327113bc1eda7c4a082505",
+    "bytes": 12841
+  },
+  "data/西湖区/arrays.npz": {
+    "sha256": "9c4961c01854daa570f606dc2b3db656fa70a8cacc46d6835c5d59c37b609f38",
+    "bytes": 7460
+  },
+  "data/西湖区/community_mca.npz": {
+    "sha256": "31244d29754349ba3c06e3df65afda85316f73c61d3e56196cc34d5afb29e289",
+    "bytes": 2340
+  },
+  "data/西湖区/district.json": {
+    "sha256": "e3b46f39bf1fbea06e373be399dc9b8fbb4ab3c3731119f6a787e381b382eac3",
+    "bytes": 10783
+  },
+  "data/西湖区/exceptions.json": {
+    "sha256": "47727a4d0a2a03b6d72e03cfce331427f7b9017b9e72360ffafcdb154b3a11e3",
+    "bytes": 54
+  },
+  "data/西湖区/extra_evidence.npz": {
+    "sha256": "29cb256a5025977ea1b645cc6d78f10140497266fd94460d59ea69d07f57688d",
+    "bytes": 1726
+  },
+  "data/西湖区/observations/arrays.npz": {
+    "sha256": "b56736a9b7182da7561e2d4740d767049d76dd09c2c5bda2e0613f0a5924caf3",
+    "bytes": 58869
+  },
+  "data/西湖区/observations/names_policy_text.json": {
+    "sha256": "99c21ff7fed88a319fcebd9f34a890e48642ba62de6458eb4391fe09c7d7fbb3",
+    "bytes": 269
+  },
+  "data/西湖区/observations/observations.json": {
+    "sha256": "ab7a89b0b1531ddb6cc09faa53a71b765bd4ddd2173182f89a28eea23e22e8d5",
+    "bytes": 311831
+  },
+  "data/西湖区/observations_bv2/arrays.npz": {
+    "sha256": "b56736a9b7182da7561e2d4740d767049d76dd09c2c5bda2e0613f0a5924caf3",
+    "bytes": 58869
+  },
+  "data/西湖区/observations_bv2/observations.json": {
+    "sha256": "ab7a89b0b1531ddb6cc09faa53a71b765bd4ddd2173182f89a28eea23e22e8d5",
+    "bytes": 311831
+  },
+  "data/钱塘区/answers.json": {
+    "sha256": "261fded405156724213eeedd332c9e1a52e4d387a714d960f39f43fc77501065",
+    "bytes": 1227
+  },
+  "data/钱塘区/answers_list_gold.json": {
+    "sha256": "2b65bdddb0443a72216009e8bf31f332bf41b8a3a23f6b032ca56b94bf24c397",
+    "bytes": 4724
+  },
+  "data/钱塘区/arrays.npz": {
+    "sha256": "26fad6fa9b6abb2d79fab5129e243137d8ba8ad5849422206fb1b30a685d37d8",
+    "bytes": 3269
+  },
+  "data/钱塘区/community_mca.npz": {
+    "sha256": "e61a8d526fac8faa54064b4e761b8ff577e314e369bc5ab7699304b61a283e5a",
+    "bytes": 1564
+  },
+  "data/钱塘区/district.json": {
+    "sha256": "a135478853592f8f79a7dd57986a7b7b5c0bdaf46e040abde9b76995da68fbb5",
+    "bytes": 4076
+  },
+  "data/钱塘区/exceptions.json": {
+    "sha256": "47727a4d0a2a03b6d72e03cfce331427f7b9017b9e72360ffafcdb154b3a11e3",
+    "bytes": 54
+  },
+  "data/钱塘区/extra_evidence.npz": {
+    "sha256": "cd3af6f1a4c69024503439f5cfa795fd495f08eabc535b711652097241c50765",
+    "bytes": 1114
+  },
+  "data/钱塘区/observations/arrays.npz": {
+    "sha256": "c2ce90893f7c6c2235769ea74acf70fc3b14741c091efd9de4909c611d2ebc17",
+    "bytes": 8075
+  },
+  "data/钱塘区/observations/names_policy_text.json": {
+    "sha256": "fa7da2f66c8cf35674b1edc5a0f0a66047909a15d15f9fdb6d8b4adb9d3e7240",
+    "bytes": 959
+  },
+  "data/钱塘区/observations/observations.json": {
+    "sha256": "5c2a479555bbea8bc04bdbab971b9a2ebb33230d576df280b64cfd6c131c2d1b",
+    "bytes": 261116
+  },
+  "data/钱塘区/observations_bv2/arrays.npz": {
+    "sha256": "c2ce90893f7c6c2235769ea74acf70fc3b14741c091efd9de4909c611d2ebc17",
+    "bytes": 8075
+  },
+  "data/钱塘区/observations_bv2/observations.json": {
+    "sha256": "5c2a479555bbea8bc04bdbab971b9a2ebb33230d576df280b64cfd6c131c2d1b",
+    "bytes": 261116
+  },
+  "data/雨花区/answers.json": {
+    "sha256": "3b14827e4ae1d6e11b233218daf715824e47ddabb26cff3d6f13150c01b7bc90",
+    "bytes": 68334
+  },
+  "data/雨花区/arrays.npz": {
+    "sha256": "37580a097afa8ca95587f6c446a5fdada6ede2e80e8cba7313d7eaa8ecb6461a",
+    "bytes": 23203
+  },
+  "data/雨花区/district.json": {
+    "sha256": "2dc09876852f3f2512c0b51003a546082e6b60caa1d2d4fe21ecfaadbb855d67",
+    "bytes": 29336
+  },
+  "data/雨花区/exceptions.json": {
+    "sha256": "992b9cf5e555238800bdf764d238bfc09d3725edb314b8c06023b9f9631c8d11",
+    "bytes": 59
+  },
+  "data/雨花区/extra_evidence.npz": {
+    "sha256": "483268a4f7103d50c2e939f70c9384275994c7c1f278c4173885510eae8ab4e8",
+    "bytes": 13803
+  },
+  "data/雨花区/observations/arrays.npz": {
+    "sha256": "72b7fd0c6ca44817a5dde2d6e730066b2100410ec05fc7afc956f9f65c92f7db",
+    "bytes": 22881
+  },
+  "data/雨花区/observations/observations.json": {
+    "sha256": "6d3977f7faa8f27cc7545e553d4bae746d381ef7aa3c2b4fb7e0c5c17d84bd5b",
+    "bytes": 153170
+  },
+  "data/雨花区/observations/verified_multischool.json": {
+    "sha256": "ebca160ea70bdca225e1ece8c3ad800385541a234e2af14dc8bec54cf2358cd1",
+    "bytes": 17127
+  },
+  "docs/EXPERIMENT_PLAN.md": {
+    "sha256": "105ea5bea97e54a9a98bf28bce504e9c6323d39428511b3d3836890167d53a40",
+    "bytes": 3823
+  },
+  "docs/ORIGINAL_README.md": {
+    "sha256": "e7396e2358021fe2589f584fc3eb551bffddffe45ca6567c5a9e9329fabd5905",
+    "bytes": 21735
+  },
+  "experiment_configs/k0_s1.json": {
+    "sha256": "bc2aeb34341b6ddf0deda487bcf6236e9abaaa610445b052c27242676985eef2",
+    "bytes": 1570
+  },
+  "experiment_configs/k1_s1.json": {
+    "sha256": "811ac10f9d0bb9087117b214fa2f19c33e806a7b46e8b49d35833fa02d6a2cb8",
+    "bytes": 1570
+  },
+  "experiment_configs/k1_s2.json": {
+    "sha256": "38ca63773509d7ac7ab860cdf26d068d654c69d08e1ed2f7f5de4dff4d35fe74",
+    "bytes": 1570
+  },
+  "experiment_configs/k1_s3.json": {
+    "sha256": "7855dff0e4e5240a096311325242aed14c410167f68b387f913b3c06e772999b",
+    "bytes": 1570
+  },
+  "experiment_state/completed_districts.json": {
+    "sha256": "4322ba3e7b9a7f8bf399f6356d6e220097bada8b4a257ca521e429a35cb8a262",
+    "bytes": 17149
+  },
+  "experiment_state/source_environment.json": {
+    "sha256": "1ed82c1493914e8b86ac22c3be9346e2be252b13187c166999e95f94d71fd02b",
+    "bytes": 92
+  },
+  "HANDOFF.md": {
+    "sha256": "b17a9a5e563f01fc36f1e39a32258b8795d463cbba8f23e2c0c6f5892e019399",
+    "bytes": 2833
+  },
+  "README.md": {
+    "sha256": "5d56642c8fe1e686ada625e8cd89440281ecc6388a8b493f8be9bf477514558a",
+    "bytes": 2703
+  },
+  "requirements-data.txt": {
+    "sha256": "2e86a0a5f4d6ab31175a8df5ad52a1c23c93ae8f967caf75fafce6e1aebf3fe5",
+    "bytes": 46
+  },
+  "scripts/ablation_table.py": {
+    "sha256": "8625e7a71d9875f155e81a7c03eb3b37e4e79fa350486b3e0b8a4dd0cf17d3f4",
+    "bytes": 5282
+  },
+  "scripts/adaptation_trial.py": {
+    "sha256": "bd4fefbb45fbb9b8947cace0709a5ec1af2805c3f1b0765d45d47e2720b6a766",
+    "bytes": 5461
+  },
+  "scripts/build_changsha_verified_sets.py": {
+    "sha256": "57813e4d7e3ed5ade2aafa0fccfe5f26487b8449c177fa40dfb9ae082864e840",
+    "bytes": 9955
+  },
+  "scripts/correct.py": {
+    "sha256": "9cae563872d958f48094d1bbb57ee714e1c338a4ed9d13fb7a585e2a7df1fb14",
+    "bytes": 5601
+  },
+  "scripts/export_data.py": {
+    "sha256": "8c12f096b1a2eaafa33c3748e29fe2669ffdb1339fbaaaaa878464f866c17d1d",
+    "bytes": 5449
+  },
+  "scripts/export_list_gold.py": {
+    "sha256": "ba455b22df9d3a0b7f4fbbb13b10659eb6e2a98fc1a149cf6e7acd9117e1e4ce",
+    "bytes": 3197
+  },
+  "scripts/export_text_only_names.py": {
+    "sha256": "d5f7e0b6d44359e2f180e8ee4e13dc53c0f73889bf9bd85c004ffb9282c95cad",
+    "bytes": 3723
+  },
+  "scripts/export_xs_aliases.py": {
+    "sha256": "c544e63c1f9edcc99c5c67cf34ffef2e19550304ba1d20213857332a7ebde378",
+    "bytes": 1643
+  },
+  "scripts/main_table.py": {
+    "sha256": "55b71ba6e8141967bc0d7b5e4805fc08f27c4ec325d43b348734d217a3e909d2",
+    "bytes": 7806
+  },
+  "scripts/replay_changsha_sets.py": {
+    "sha256": "d42bd14543b09ee001671c5d1040cf15bb6dee3f1c77a5a4c894d1745428c80c",
+    "bytes": 9968
+  },
+  "scripts/run.py": {
+    "sha256": "77cbaf105b2fc51048c26e99c42d469a0dcd39722a054010f9a236060d24ba5c",
+    "bytes": 5402
+  },
+  "scripts/run_baselines.py": {
+    "sha256": "25c87f26c94b33db49aa33f32ea176d43047e22502c37e441114b57e1b30a2c8",
+    "bytes": 3687
+  },
+  "scripts/verify.py": {
+    "sha256": "66adca06bf8ef2fe10b773b9d21ecf2c4f72da4170f63052d2f07ab022fb5cfb",
+    "bytes": 4442
+  },
+  "tests/test_changsha_sets.py": {
+    "sha256": "d6bd08e4cacca3abbd59c1842d0467eb10af3c358650b2ea6a8d8365d6f0d264",
+    "bytes": 8319
+  },
+  "third_party/LICENSE": {
+    "sha256": "93cf90600c386cb5719779090fbc37080d5833eeec8d1f66cc370ba48af2d422",
+    "bytes": 1101
+  },
+  "third_party/README.txt": {
+    "sha256": "8c23186fb7e9a05561508dd620680bc1348c89e27e5cefe14f16260267e88e02",
+    "bytes": 354
+  },
+  "third_party/TALENT/model/lib/tabr/utils.py": {
+    "sha256": "46f26474f559cdda4eda92c5d28d504905c3180ad0ead1bc3f296af72c74230b",
+    "bytes": 12259
+  },
+  "third_party/TALENT/model/methods/modernNCA.py": {
+    "sha256": "608c85e94714718fd5690a8096890b6232f2da94d0c94d5489734278df112d3e",
+    "bytes": 15409
+  },
+  "third_party/TALENT/model/models/modernNCA.py": {
+    "sha256": "02fce6a107998ab7212774507998e77535f630fbf4ee328acf8519ad7c10632f",
+    "bytes": 4470
+  },
+  "zoning/__init__.py": {
+    "sha256": "e137b0234a63f28e5688b66def2d79cfa2754ebb8e4622e8d4d921fefba8d735",
+    "bytes": 1142
+  },
+  "zoning/adapt.py": {
+    "sha256": "53fd7cfd7b38422dbc700d7dc0feaae930f9e45568047decbfec0bed6ac7a6f6",
+    "bytes": 4029
+  },
+  "zoning/baselines.py": {
+    "sha256": "a0e86d030cf620db0736b629994d3e00748867a0401c5f407195989e007af9b8",
+    "bytes": 15798
+  },
+  "zoning/changsha_sets.py": {
+    "sha256": "6e6510fd0ccaed7f5a52e679bbd20bb80aeb81ac4df925653302f97bc6d372fe",
+    "bytes": 9876
+  },
+  "zoning/correction.py": {
+    "sha256": "7ff32528dd1f6c6b81a8f4f5df1e63a1e172e9ea0aaa90dd2c411158cf851cbe",
+    "bytes": 5306
+  },
+  "zoning/data.py": {
+    "sha256": "73d03bcb347fb09f6f7e245ed2a993aad5e1782fe3f7cd9400b0af045499fae4",
+    "bytes": 5200
+  },
+  "zoning/evaluate.py": {
+    "sha256": "f5be3f42d6418a88f3c0ab43d8eafe3d67b884700e3d24e5cc1dafca35f8c245",
+    "bytes": 5099
+  },
+  "zoning/evidence.py": {
+    "sha256": "e6569e216e516c807188d69d2fd7c152550ac7eab9977f101f92c2ec3dc6f058",
+    "bytes": 12565
+  },
+  "zoning/model.py": {
+    "sha256": "75321b511e539c07daf9147d066873e3ef33546a5b08037bd3c5b434c22a8f34",
+    "bytes": 8455
+  },
+  "zoning/predict.py": {
+    "sha256": "25a7acebcb75fb3c91d9cab34d5e6cf5647302eddbd1feec34c727e0b8861510",
+    "bytes": 1469
+  },
+  "zoning/references.py": {
+    "sha256": "fa3b4aa3dbc8dcbbe862d905323795e32609a1d57cbd108fd43c9e52ac2e7580",
+    "bytes": 3320
+  },
+  "zoning/rules.py": {
+    "sha256": "4c034a0a19b8d5954610d198c72189ade6f9fbc9a3c2761c0604169de58abc1f",
+    "bytes": 12655
+  },
+  "zoning/train.py": {
+    "sha256": "4969cf65e90f3eb254ab0065182bfb1186127810e1b7423b3ec2efae1c8558ae",
+    "bytes": 7069
+  }
+}

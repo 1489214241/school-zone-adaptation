@@ -1,0 +1,475 @@
+{
+  "schema": "changsha_verified_relations_v1",
+  "district": "雨花区",
+  "policy_year": 2026,
+  "checked": "2026-11-09",
+  "observations_sha256": "6d3977f7faa8f27cc7545e553d4bae746d381ef7aa3c2b4fb7e0c5c17d84bd5b",
+  "source": {
+    "path": "长沙市\\雨花区\\原始资料\\教育局2026_csv\\关于2026年雨花区公办小学学区范围及覆盖具体楼盘信息的公告.csv",
+    "url": "http://www.yuhua.gov.cn/sjkf/shkfjy/xxxqfwlp/202604/P020260401531463878098.csv",
+    "sha256": "7c14c17ee85d94ae6c36e2397b7f28d0523e461d60bf2753dd0c233052a8ca07"
+  },
+  "selection_note": "候选由已有多校错误审计定位；关系取自政策和外部实体证据，结果仅属同批数据开发验证。",
+  "records": [
+    {
+      "q": 250,
+      "name": "江河双水湾",
+      "status": "approved",
+      "identity_basis": "人工实体判定：项目介绍在江河双水湾页面内使用双水湾简称，地址沙湾路1088号、开发商江河水利置业相符；仅连接该住宅小区。",
+      "applicability": "2026年双水湾住宅；只应用当前小区记录，不扩展至其他江河项目或商业物业。",
+      "evidence": [
+        {
+          "url": "https://www.huxing.com/xiaoqu-3161dbe5367a11ee90eb00f1f30222b6-jiangheshuangshuiwan.html",
+          "checked": "2026-11-09",
+          "finding": "项目全称、简称、地址和开发商在同页；不采用该页学区字段。",
+          "level": "secondary_identity"
+        },
+        {
+          "url": "https://mfang.58.com/cs/xinfang/xq100385662/xiangqing/",
+          "checked": "2026-11-09",
+          "finding": "独立房产目录地址为沙湾路1088号，开发商为江河水利置业。",
+          "level": "secondary_identity"
+        },
+        {
+          "url": "https://www.sohu.com/a/1009035551_121124006",
+          "checked": "2026-11-09",
+          "finding": "署名学校党政办的更名公告转载：东澜湾更名为澜湾，学区范围不变。",
+          "level": "school_notice_mirror"
+        },
+        {
+          "url": "https://www.sohu.com/a/1052975897_121677885",
+          "checked": "2026-11-09",
+          "finding": "教育资讯明确列出悦东方更名悦雅；属二手报道，并非更名公文。",
+          "level": "secondary_rename"
+        },
+        {
+          "url": "https://mbaokao.offcn.com/ggcx/gg/181204.html",
+          "checked": "2026-11-09",
+          "finding": "来源标注学校公众号的2026招聘公告：悦东方小学电话0731-88307686，与官方2026CSV悦雅小学电话一致。",
+          "level": "school_notice_mirror"
+        }
+      ],
+      "policy_term": "双水湾",
+      "clauses": [
+        {
+          "school": 76,
+          "clause": 3,
+          "text": "双水湾、东澜湾、中央洋房、盛世华章、运达中央广场住宅"
+        },
+        {
+          "school": 82,
+          "clause": 2,
+          "text": "邻近的花桥村村民子女、双水湾、中央洋房住宅"
+        }
+      ],
+      "original_records": [
+        {
+          "csv_record": 102,
+          "original_school": "枫树山悦雅小学",
+          "cells": [
+            "",
+            "",
+            "",
+            "2.邻近的花桥村村民子女、双水湾、中央洋房住宅",
+            ""
+          ]
+        },
+        {
+          "csv_record": 114,
+          "original_school": "砂子塘澜湾小学",
+          "cells": [
+            "",
+            "",
+            "",
+            "3.双水湾、东澜湾、中央洋房、盛世华章、运达中央广场住宅",
+            ""
+          ]
+        }
+      ],
+      "schools": [
+        76,
+        82
+      ],
+      "school_names": [
+        "砂子塘东澜湾小学",
+        "枫树山悦东方小学"
+      ],
+      "relation_type": "policy_named_overlap",
+      "choice_status": "unconfirmed",
+      "output_action": "replace_with_policy_set"
+    },
+    {
+      "q": 349,
+      "name": "三0一佳园",
+      "status": "approved",
+      "identity_basis": "人工实体判定：三〇一佳园是核工业三〇一大队参与三供一业改造的既有小区；三0一、三零一为同址数字写法。",
+      "applicability": "仅三〇一佳园既有宿舍小区；保留原有宿舍限定，不扩展到新增楼盘或核工业其他院区。",
+      "evidence": [
+        {
+          "url": "https://cs.rednet.cn/content/2018/12/21/4349414.html",
+          "checked": "2026-11-09",
+          "finding": "长沙晚报报道三〇一大队投入三〇一佳园小区提质和三供一业改造，支持既有单位住宅身份。",
+          "level": "public_source"
+        },
+        {
+          "url": "https://www.kdniao.com/kuaidi/network/430100000000_430111000000/9.html",
+          "checked": "2026-11-09",
+          "finding": "配送地址表将中意一路977号列作301佳园、三零一佳园，同时列三0一佳园；仅作地址与数字写法佐证。",
+          "level": "secondary_address"
+        }
+      ],
+      "policy_term": "三零一核工业部",
+      "clauses": [
+        {
+          "school": 53,
+          "clause": 2,
+          "text": "长沙锅炉厂、三零一核工业部、省第三工程公司原有宿舍"
+        },
+        {
+          "school": 78,
+          "clause": 3,
+          "text": "长沙锅炉厂、三零一核工业部原有宿舍"
+        }
+      ],
+      "original_records": [
+        {
+          "csv_record": 148,
+          "original_school": "和平小学",
+          "cells": [
+            "",
+            "",
+            "",
+            "2.长沙锅炉厂、三零一核工业部、省第三工程公司原有宿舍；雨花机电市场住宅",
+            ""
+          ]
+        },
+        {
+          "csv_record": 160,
+          "original_school": "砂子塘都会小学",
+          "cells": [
+            "",
+            "",
+            "",
+            "3.长沙锅炉厂、三零一核工业部原有宿舍",
+            ""
+          ]
+        }
+      ],
+      "schools": [
+        53,
+        78
+      ],
+      "school_names": [
+        "和平小学",
+        "砂子塘都会小学"
+      ],
+      "relation_type": "policy_named_overlap",
+      "choice_status": "unconfirmed",
+      "output_action": "replace_with_policy_set"
+    },
+    {
+      "q": 388,
+      "name": "香樟路电信宿舍",
+      "status": "approved",
+      "identity_basis": "人工实体判定：保留香樟路和宿舍两个限定，电信/电信局为单位称谓差异；房产目录与市供水报道均将其作为当地既有住宅小区。长郡雨外为长郡雨花外国语简称，第三附属序号不变。",
+      "applicability": "仅香樟路电信住宅宿舍；不适用于桔园路等其他电信宿舍、办公营业用房。",
+      "evidence": [
+        {
+          "url": "https://www.fang.com/xiaoqu/cs-2710873508/",
+          "checked": "2026-11-09",
+          "finding": "小区在韶山南路与香樟路交叉口，1995年住宅、单位自管，支持宿舍属性。",
+          "level": "secondary_identity"
+        },
+        {
+          "url": "https://www.icswb.com/h/151/20230407/808810.html",
+          "checked": "2026-11-09",
+          "finding": "长沙晚报转述市供水公司名单，将香樟路电信宿舍与瑞都华庭、湘樟园等分别列为用户。",
+          "level": "public_source"
+        },
+        {
+          "url": "https://m.voc.com.cn/xhn/news/202304/16377146.html",
+          "checked": "2026-11-09",
+          "finding": "教育报道使用长郡雨外第三附属小学简称；与原文第三附属学校序号一致。",
+          "level": "public_source"
+        }
+      ],
+      "policy_term": "香樟路电信局宿舍",
+      "clauses": [
+        {
+          "school": 60,
+          "clause": 4,
+          "text": "湘樟家园、香樟路电信局宿舍、瑞都华庭住宅"
+        },
+        {
+          "school": 61,
+          "clause": 2,
+          "text": "航三院职工宿舍、香樟路电信局宿舍"
+        }
+      ],
+      "original_records": [
+        {
+          "csv_record": 9,
+          "original_school": "砂子塘雅沁学校",
+          "cells": [
+            "",
+            "",
+            "",
+            "2.航三院职工宿舍、香樟路电信局宿舍",
+            ""
+          ]
+        },
+        {
+          "csv_record": 190,
+          "original_school": "长郡雨花外国语第三附属小学",
+          "cells": [
+            "",
+            "",
+            "",
+            "4.湘樟家园、香樟路电信局宿舍、瑞都华庭住宅",
+            ""
+          ]
+        }
+      ],
+      "schools": [
+        60,
+        61
+      ],
+      "school_names": [
+        "长郡雨外第三附属小学",
+        "砂子塘雅沁学校"
+      ],
+      "relation_type": "policy_named_overlap",
+      "choice_status": "unconfirmed",
+      "output_action": "replace_with_policy_set"
+    },
+    {
+      "q": 435,
+      "name": "中航长沙设计研究院宿舍",
+      "status": "approved",
+      "identity_basis": "人工实体判定：行业协会确认中航长沙设计研究院原名中国航空工业第三设计研究院、地址香樟路254号；同址住宅目录及社区活动报道支持航三院住宅身份。",
+      "applicability": "仅香樟路254号院的职工住宅宿舍，不包括办公楼、轻工设计院或中航其他新项目。",
+      "evidence": [
+        {
+          "url": "https://cskcsj.com/img1/showimg.php?id=420",
+          "checked": "2026-11-09",
+          "finding": "行业协会会员介绍明确原单位名称和香樟路254号地址。",
+          "level": "industry_association"
+        },
+        {
+          "url": "https://mfang.58.com/cs/xinfang/xq100388158/xiangqing/",
+          "checked": "2026-11-09",
+          "finding": "中航工业长沙院为1998年住宅，地址香樟路254号（旧004号）。",
+          "level": "secondary_identity"
+        },
+        {
+          "url": "https://www.hunantoday.cn/news/xhn/202405/19936297.html",
+          "checked": "2026-11-09",
+          "finding": "社区老年活动在香樟路社区航三院举行，中航长沙设计研究院共同实施。",
+          "level": "public_source"
+        }
+      ],
+      "policy_term": "航三院职工宿舍",
+      "clauses": [
+        {
+          "school": 61,
+          "clause": 2,
+          "text": "航三院职工宿舍、香樟路电信局宿舍"
+        },
+        {
+          "school": 90,
+          "clause": 5,
+          "text": "湘樟园、航三院职工宿舍、红星村北冲尾组、樟树屋组村民子女"
+        }
+      ],
+      "original_records": [
+        {
+          "csv_record": 9,
+          "original_school": "砂子塘雅沁学校",
+          "cells": [
+            "",
+            "",
+            "",
+            "2.航三院职工宿舍、香樟路电信局宿舍",
+            ""
+          ]
+        },
+        {
+          "csv_record": 172,
+          "original_school": "德馨园小学",
+          "cells": [
+            "",
+            "",
+            "",
+            "5.湘樟园、航三院职工宿舍、红星村北冲尾组、樟树屋组村民子女",
+            ""
+          ]
+        }
+      ],
+      "schools": [
+        61,
+        90
+      ],
+      "school_names": [
+        "砂子塘雅沁学校",
+        "德馨园小学"
+      ],
+      "relation_type": "policy_named_overlap",
+      "choice_status": "unconfirmed",
+      "output_action": "replace_with_policy_set"
+    },
+    {
+      "q": 82,
+      "name": "世茂璀璨天城",
+      "status": "pending",
+      "reason": "云锦轩推广名已查到，但项目同时含住宅和商业公寓，当前点未区分用途；另一条款是2026年暂时过渡，不能直接视为无条件双校。",
+      "evidence": [
+        {
+          "url": "https://m.lejucaijing.com/news-6977929197272743681.html",
+          "checked": "2026-11-09",
+          "finding": "转述住建局和区委办回复：云锦轩推广名为世茂璀璨天城，同一项目有10栋高层住宅及6栋商业。",
+          "level": "public_source"
+        }
+      ],
+      "policy_term": "世贸云锦轩",
+      "clauses": [
+        {
+          "school": 73,
+          "clause": 3,
+          "text": "自然村7组村民子女、安置在颐景苑的自然村村民子女、紫薇苑、世贸云锦轩住宅2026年暂在该校过渡"
+        },
+        {
+          "school": 83,
+          "clause": 4,
+          "text": "万树丹堤、世贸云锦轩、高峰璟麟府（高峰御园）住宅"
+        }
+      ],
+      "original_records": [
+        {
+          "csv_record": 16,
+          "original_school": "泰禹第二小学",
+          "cells": [
+            "",
+            "",
+            "",
+            "4.万树丹堤、世贸云锦轩、高峰璟麟府（高峰御园）住宅",
+            ""
+          ]
+        },
+        {
+          "csv_record": 23,
+          "original_school": "吉联第二小学",
+          "cells": [
+            "",
+            "",
+            "",
+            "3.自然村7组村民子女、安置在颐景苑的自然村村民子女、紫薇苑、世贸云锦轩住宅2026年暂在该校过渡",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "q": 271,
+      "name": "中建嘉和城凤凰台",
+      "status": "pending",
+      "reason": "中建凤凰台的单校条款成立；无法证明中建嘉和城整项目条款覆盖凤凰台。公共服务名单分别列两项目，不能按父项目名称包含关系补第二校。",
+      "evidence": [
+        {
+          "url": "https://finance.sina.com.cn/jjxw/2026-08-02/doc-inikxfmf2917385.shtml",
+          "checked": "2026-11-09",
+          "finding": "市供水停水名单分别列中建嘉和城、中建嘉和城凤凰台。",
+          "level": "public_source"
+        }
+      ],
+      "policy_term": "中建凤凰台",
+      "clauses": [
+        {
+          "school": 64,
+          "clause": 2,
+          "text": "中建凤凰台住宅"
+        }
+      ],
+      "original_records": [
+        {
+          "csv_record": 142,
+          "original_school": "砂子塘集美小学",
+          "cells": [
+            "",
+            "",
+            "",
+            "2.中建凤凰台住宅",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "q": 392,
+      "name": "江河中央洋房",
+      "status": "pending",
+      "reason": "查到沙湾路389号、江河开发商和住宅属性，学校更名亦有佐证；本轮未取得政策简称中央洋房与当前住宅范围的直接对应证据，保留待核。",
+      "evidence": [
+        {
+          "url": "https://www.focus.cn/xf/cs-181860/",
+          "checked": "2026-11-09",
+          "finding": "项目目录显示沙湾路389号、开发商江河水利置业；尚不足以单独闭合政策简称和住宅范围。",
+          "level": "secondary_identity"
+        }
+      ],
+      "policy_term": "中央洋房",
+      "clauses": [
+        {
+          "school": 76,
+          "clause": 3,
+          "text": "双水湾、东澜湾、中央洋房、盛世华章、运达中央广场住宅"
+        },
+        {
+          "school": 82,
+          "clause": 2,
+          "text": "邻近的花桥村村民子女、双水湾、中央洋房住宅"
+        }
+      ],
+      "original_records": [
+        {
+          "csv_record": 102,
+          "original_school": "枫树山悦雅小学",
+          "cells": [
+            "",
+            "",
+            "",
+            "2.邻近的花桥村村民子女、双水湾、中央洋房住宅",
+            ""
+          ]
+        },
+        {
+          "csv_record": 114,
+          "original_school": "砂子塘澜湾小学",
+          "cells": [
+            "",
+            "",
+            "",
+            "3.双水湾、东澜湾、中央洋房、盛世华章、运达中央广场住宅",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "q": 540,
+      "name": "中国轻总会长沙设计院",
+      "status": "pending",
+      "reason": "未找到支持当前双校关系的政策点名；不能因坐标接近中航院而合并实体。红星小学另有轻工设计院宿舍条款，且当前记录未写宿舍，保留单位/住宅及坐标疑点。",
+      "evidence": [
+        {
+          "url": "https://qkzzs.jcu.edu.cn/zgtcgy/info/1025/3372.htm",
+          "checked": "2026-11-09",
+          "finding": "期刊作者单位使用中国轻工总会长沙设计院，不能据此认作航空三院。",
+          "level": "public_source"
+        }
+      ],
+      "policy_term": null,
+      "clauses": [],
+      "original_records": []
+    }
+  ]
+}

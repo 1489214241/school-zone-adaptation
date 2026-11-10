@@ -1,0 +1,81 @@
+{
+  "说明": "主表（pre_v1）：每校额外核验 1 个参照，核验对象第 1 批",
+  "districts": [
+    "天心区",
+    "芙蓉区",
+    "雨花区",
+    "开福区",
+    "拱墅区",
+    "萧山区",
+    "富阳区",
+    "临安区"
+  ],
+  "rules": {
+    "preset": "unified_20261106",
+    "hangzhou_names": "policy_text_aliases",
+    "hangzhou_boundary": "v2",
+    "hangzhou_community_rule": true
+  },
+  "evidence": {
+    "pair_blocks": [
+      "distance",
+      "named_reference",
+      "policy",
+      "agreement",
+      "disagreement",
+      "crossing",
+      "within_2km",
+      "learned_boundary",
+      "same_community"
+    ],
+    "school_blocks": [
+      "distance",
+      "policy",
+      "within_2km",
+      "community_clause",
+      "name"
+    ],
+    "exclusion_to_model": "all",
+    "layout": "compact"
+  },
+  "model": {
+    "width": 32
+  },
+  "train": {
+    "items": {
+      "target_known": true,
+      "other_known": true,
+      "other_answers": true
+    },
+    "steps": 40,
+    "lr": 0.003,
+    "reg": {
+      "default": 0.01
+    },
+    "seeds": [
+      20261131,
+      20261132,
+      20261133,
+      20261134,
+      20261135,
+      20261136,
+      20261137,
+      20261138,
+      20261139,
+      20261140
+    ]
+  },
+  "evaluate": {
+    "bootstrap_seed": 20261104,
+    "draws": 3000
+  },
+  "output_dir": "outputs/main_pre_v1/k1_s1",
+  "data": {
+    "hangzhou_gold": "map_list",
+    "hangzhou_community": "mca"
+  },
+  "references": {
+    "k": 1,
+    "seed": 1
+  }
+}

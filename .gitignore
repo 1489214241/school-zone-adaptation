@@ -1,0 +1,13 @@
+outputs/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+*.log
+*.pt
+*.pth
+*.zip
+*.tar
+*.tar.gz

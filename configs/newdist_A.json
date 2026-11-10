@@ -1,0 +1,91 @@
+{
+  "说明": "换区尝试甲（科研推进/杭州换区尝试_20261107）：现默认设置；十二区都当目标区，训练题只来自原八区（新区答案不进训练）。原八区应与默认逐位相同。",
+  "districts": [
+    "天心区",
+    "芙蓉区",
+    "雨花区",
+    "开福区",
+    "拱墅区",
+    "萧山区",
+    "富阳区",
+    "临安区",
+    "上城区",
+    "西湖区",
+    "滨江区",
+    "钱塘区"
+  ],
+  "rules": {
+    "preset": "unified_20261106",
+    "hangzhou_names": "policy_text_aliases",
+    "hangzhou_boundary": "v2",
+    "hangzhou_community_rule": true
+  },
+  "evidence": {
+    "pair_blocks": [
+      "distance",
+      "named_reference",
+      "policy",
+      "agreement",
+      "disagreement",
+      "crossing",
+      "within_2km",
+      "learned_boundary",
+      "same_community"
+    ],
+    "school_blocks": [
+      "distance",
+      "policy",
+      "within_2km",
+      "community_clause",
+      "name"
+    ],
+    "exclusion_to_model": "all",
+    "layout": "compact"
+  },
+  "model": {
+    "width": 32
+  },
+  "train": {
+    "items": {
+      "target_known": true,
+      "other_known": true,
+      "other_answers": true,
+      "pool": [
+        "天心区",
+        "芙蓉区",
+        "雨花区",
+        "开福区",
+        "拱墅区",
+        "萧山区",
+        "富阳区",
+        "临安区"
+      ]
+    },
+    "steps": 40,
+    "lr": 0.003,
+    "reg": {
+      "default": 0.01
+    },
+    "seeds": [
+      20261131,
+      20261132,
+      20261133,
+      20261134,
+      20261135,
+      20261136,
+      20261137,
+      20261138,
+      20261139,
+      20261140
+    ]
+  },
+  "evaluate": {
+    "bootstrap_seed": 20261104,
+    "draws": 3000
+  },
+  "output_dir": "outputs/newdist_A",
+  "data": {
+    "hangzhou_gold": "map_list",
+    "hangzhou_community": "mca"
+  }
+}

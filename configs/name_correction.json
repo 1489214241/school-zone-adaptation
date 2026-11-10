@@ -1,0 +1,29 @@
+{
+  "说明": "限定范围的名字证据修正：冻结整理版（outputs/unified_20261106），只在带名字证据的（小区, 学校）上学修正；对照组同一修正头不限定范围。方案见 科研推进/名字证据限定修正_20261107/方案.md。",
+  "base_config": "configs/default.json",
+  "base_output": "outputs/unified_20261106",
+  "correction": {
+    "evidence": "name",
+    "width": 16,
+    "steps": 200,
+    "lr": 0.01,
+    "reg": 0.01,
+    "seeds": [
+      20261131,
+      20261132,
+      20261133,
+      20261134,
+      20261135,
+      20261136,
+      20261137,
+      20261138,
+      20261139,
+      20261140
+    ]
+  },
+  "evaluate": {
+    "bootstrap_seed": 20261104,
+    "draws": 3000
+  },
+  "output_dir": "outputs/name_correction_20261107"
+}
