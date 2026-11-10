@@ -1,0 +1,38 @@
+{
+  "status": "complete",
+  "completed_tasks": 70,
+  "failed_tasks": 0,
+  "worker_returncodes": [
+    0,
+    0
+  ],
+  "started_utc": "2026-11-10T11:28:31Z",
+  "dual_workers_started_utc": "2026-11-10T11:33:38Z",
+  "finished_utc": "2026-11-10T12:06:38Z",
+  "wall_seconds": 2287.0,
+  "dual_worker_wall_seconds": 1980.0,
+  "groups": {
+    "k0_s1": 6,
+    "k1_s1": 22,
+    "k1_s2": 20,
+    "k1_s3": 22
+  },
+  "cumulative_fit_seconds": 2076.036784408614,
+  "max_cuda_allocated_bytes": 4047639040,
+  "max_cuda_reserved_bytes": 5047844864,
+  "probability_bytes": 140930747,
+  "execution_commits": [
+    "878d09a20d6230f9670ee7ea126a7a7020431446"
+  ],
+  "baseline": {
+    "max_prob_diff": 9.5367431640625e-07,
+    "changed_predictions": 0,
+    "changed_correctness": 0,
+    "evaluated_sites": 793
+  },
+  "output_root": "outputs/server-20261110-112800",
+  "github_uploaded": false,
+  "github_status": "Server GitHub login missing",
+  "original_completed_tasks_retained_on_original_machine": 122,
+  "scoring": "Merge new outputs with original retained results and apply the frozen pre_v1 evaluation; no model adoption or efficacy claim."
+}

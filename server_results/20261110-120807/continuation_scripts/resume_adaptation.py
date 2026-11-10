@@ -1,0 +1,372 @@
+"""Verify, pilot, and resume the frozen pre_v1 adaptation trial on Linux."""
+
+import argparse
+import hashlib
+import importlib.metadata
+import json
+import os
+from pathlib import Path
+import platform
+import subprocess
+import tempfile
+import time
+from collections import defaultdict
+from fcntl import LOCK_EX, flock
+
+import numpy as np
+
+from adaptation_trial import ARMS, REPO, TARGET, arm_cfg
+
+
+GROUPS = tuple(f'k{k}_s{s}' for k, s in TARGET)
+
+
+def read_json(path):
+    return json.loads(path.read_text(encoding='utf-8'))
+
+
+def fingerprint(path):
+    with path.open('rb') as stream:
+        return {'bytes': os.fstat(stream.fileno()).st_size,
+                'sha256': hashlib.file_digest(stream, 'sha256').hexdigest()}
+
+
+def configuration(group):
+    return read_json(REPO / 'experiment_configs' / f'{group}.json')
+
+
+def plan():
+    state = 'experiment_state/completed_districts.json'
+    manifest = read_json(REPO / 'SOURCE_MANIFEST.json')
+    required = [state] + [f'experiment_configs/{group}.json' for group in GROUPS]
+    verify_sources({name: manifest[name] for name in required})
+    complete = read_json(REPO / state)
+    tasks = []
+    for group in GROUPS:
+        districts = configuration(group)['districts']
+        for arm in ARMS:
+            for district in districts:
+                if district not in complete.get(f'{group}__T_{arm}', {}):
+                    tasks.append(dict(group=group, arm=arm, district=district, shard=len(tasks) % 2))
+    return tasks
+
+
+def prepare(base):
+    from run import load_districts
+    from zoning import evidence, references, rules
+
+    start = time.perf_counter()
+    districts = load_districts(base)
+    rule_cfg = base['rules']
+    results = {
+        district: rules.run(data, rule_cfg['preset'],
+                            rule_cfg.get('hangzhou_names', 'all'),
+                            rule_cfg.get('hangzhou_boundary', 'v1'),
+                            rule_cfg.get('hangzhou_community_rule', False))
+        for district, data in districts.items()
+    }
+    results, _ = references.apply(base.get('references'), districts, results)
+    inputs = {d: evidence.build(districts[d], results[d], base['evidence']) for d in districts}
+    return districts, results, inputs, time.perf_counter() - start
+
+
+def verify_sources(manifest):
+    mismatches = [name for name, expected in manifest.items()
+                  if not (REPO / name).is_file() or fingerprint(REPO / name) != expected]
+    if mismatches:
+        raise RuntimeError('Source manifest mismatch:\n' + '\n'.join(mismatches))
+
+
+def check():
+    manifest = read_json(REPO / 'SOURCE_MANIFEST.json')
+    verify_sources(manifest)
+    print(f'Verified {len(manifest)} source files', flush=True)
+    for group in GROUPS:
+        districts, _, inputs, seconds = prepare(configuration(group))
+        print(f'{group}: built evidence for {len(districts)} districts in {seconds:.1f}s', flush=True)
+        del inputs
+
+
+def environment():
+    from zoning import DEVICE
+    import torch
+
+    if DEVICE != 'cuda' or torch.cuda.device_count() != 1:
+        raise RuntimeError('Expose exactly one CUDA GPU with CUDA_VISIBLE_DEVICES')
+    props = torch.cuda.get_device_properties(0)
+    if 'RTX 5090' not in props.name or torch.cuda.get_device_capability(0) != (12, 0):
+        raise RuntimeError(f'Expected an RTX 5090, got {props.name}')
+    device = torch.ones(1, device='cuda')
+    if (device + device).item() != 2:
+        raise RuntimeError('CUDA smoke test failed')
+    driver = subprocess.check_output(
+        ['nvidia-smi', '--query-gpu=driver_version', '--format=csv,noheader'], text=True
+    ).splitlines()[0].strip()
+    return {
+        'python': platform.python_version(), 'platform': platform.platform(),
+        'torch': str(torch.__version__), 'cuda': torch.version.cuda,
+        'cudnn': torch.backends.cudnn.version(), 'driver': driver,
+        'cuda_visible_devices': os.environ.get('CUDA_VISIBLE_DEVICES'),
+        'gpu': props.name, 'gpu_uuid': str(props.uuid), 'gpu_total_bytes': props.total_memory,
+        'compute_capability': torch.cuda.get_device_capability(0),
+        'cublas_workspace_config': os.environ.get('CUBLAS_WORKSPACE_CONFIG'),
+        'deterministic_algorithms': torch.are_deterministic_algorithms_enabled(),
+        'matmul_allow_tf32': torch.backends.cuda.matmul.allow_tf32,
+        'cudnn_allow_tf32': torch.backends.cudnn.allow_tf32,
+        'cudnn_benchmark': torch.backends.cudnn.benchmark,
+        'data_dependencies': {name: importlib.metadata.version(name)
+                              for name in ('numpy', 'scipy', 'shapely')},
+        'git_commit': subprocess.check_output(['git', '-C', str(REPO), 'rev-parse', 'HEAD'],
+                                              text=True).strip(),
+        'resume_script_sha256': fingerprint(Path(__file__))['sha256'],
+        'source_manifest_sha256': fingerprint(REPO / 'SOURCE_MANIFEST.json')['sha256'],
+    }
+
+
+def atomic_file(path, write, *, replace=False):
+    temp = None
+    try:
+        with tempfile.NamedTemporaryFile(dir=path.parent, prefix=f'.{path.name}.',
+                                         delete=False) as stream:
+            temp = Path(stream.name)
+            write(stream)
+            stream.flush()
+            os.fsync(stream.fileno())
+        if replace:
+            os.replace(temp, path)
+        else:
+            os.link(temp, path)
+        directory = os.open(path.parent, os.O_RDONLY | os.O_DIRECTORY)
+        try:
+            os.fsync(directory)
+        finally:
+            os.close(directory)
+    finally:
+        if temp is not None:
+            temp.unlink(missing_ok=True)
+
+
+def write_json(path, value, *, replace=False):
+    content = json.dumps(value, ensure_ascii=False, indent=2).encode('utf-8') + b'\n'
+    atomic_file(path, lambda stream: stream.write(content), replace=replace)
+
+
+def ensure_config(path, cfg):
+    # Compare JSON values after normalizing tuples such as CUDA capabilities.
+    cfg = json.loads(json.dumps(cfg))
+    if not path.exists():
+        try:
+            write_json(path, cfg)
+        except FileExistsError:
+            pass  # The other worker may have published the shared arm config.
+    if read_json(path) != cfg:
+        raise RuntimeError(f'Existing arm config differs: {path}')
+
+
+def validate_probs(probs, seeds, cfg, district, path):
+    expected_seeds = cfg['train']['seeds']
+    if not np.array_equal(seeds, expected_seeds):
+        raise RuntimeError(f'Seed mismatch: {path}')
+    if probs.shape != (len(expected_seeds), district.n, district.school_n):
+        raise RuntimeError(f'Probability shape mismatch: {path}')
+    if not np.isfinite(probs).all() or (probs < 0).any() or not np.allclose(probs.sum(-1), 1, atol=1e-5):
+        raise RuntimeError(f'Invalid probabilities: {path}')
+    return probs
+
+
+def read_probs(path, cfg, district):
+    with np.load(path, allow_pickle=False) as data:
+        return validate_probs(data['probs'], data['seeds'], cfg, district, path)
+
+
+def compare(probs, historical, district, rules):
+    from zoning import evaluate
+
+    rows = evaluate.eval_rows(district, rules.known)
+    current = probs.mean(0)
+    baseline = historical.mean(0)
+    current_scores = evaluate.correct(current, district, rows)
+    baseline_scores = evaluate.correct(baseline, district, rows)
+    metrics = dict(
+        max_prob_diff=float(np.abs(probs - historical).max()),
+        changed_predictions=int(np.count_nonzero(current.argmax(-1) != baseline.argmax(-1))),
+        changed_correctness=sum(a['ok'] != b['ok'] for a, b in zip(current_scores, baseline_scores)),
+        evaluated_sites=len(rows),
+    )
+    print(json.dumps(metrics, ensure_ascii=False), flush=True)
+    if metrics['max_prob_diff'] >= 1e-5 or metrics['changed_correctness']:
+        raise RuntimeError(f'BASE numeric check failed for {district.name}')
+    return metrics
+
+
+def run_task(task, base, prepared, root, env, historical=None):
+    import torch
+    from zoning import train
+
+    districts, rules, inputs, evidence_seconds = prepared
+    district = task['district']
+    cfg = arm_cfg(base, task['arm'])
+    out = root / cfg['output_dir']
+    prob = out / 'probs' / f'{district}.npz'
+    meta = out / 'tasks' / f'{district}.json'
+    lock = out / '.locks' / district
+    for path in (prob, meta, lock):
+        path.parent.mkdir(parents=True, exist_ok=True)
+    with lock.open('a') as stream:
+        flock(stream, LOCK_EX)
+        ensure_config(out / 'config.json', cfg)
+        if prob.exists():
+            if not meta.exists():
+                raise RuntimeError(f'Existing probability has no provenance: {prob}')
+            record = read_json(meta)
+            if record['probabilities'] != fingerprint(prob):
+                raise RuntimeError(f'Existing probability hash mismatch: {prob}')
+            if record['config'] != fingerprint(out / 'config.json'):
+                raise RuntimeError(f'Existing configuration hash mismatch: {prob}')
+            probs = read_probs(prob, cfg, districts[district])
+            if historical is not None:
+                compare(probs, historical, districts[district], rules[district])
+            print(f'Already complete: {prob}', flush=True)
+            return
+
+        torch.cuda.synchronize()
+        torch.cuda.reset_peak_memory_stats()
+        started = time.perf_counter()
+        seeds = cfg['train']['seeds']
+        print(f"Starting: {task['group']} {task['arm']} {district} ({len(seeds)} seeds)", flush=True)
+        result = train.fit(district, inputs, districts, cfg, seeds)
+        torch.cuda.synchronize()
+        elapsed = time.perf_counter() - started
+        allocated = torch.cuda.max_memory_allocated()
+        reserved = torch.cuda.max_memory_reserved()
+        probs = np.stack([result[seed][1] for seed in seeds])
+        validate_probs(probs, seeds, cfg, districts[district], prob)
+        try:
+            metrics = None if historical is None else compare(
+                probs, historical, districts[district], rules[district]
+            )
+        except RuntimeError:
+            # Keep a failed comparison available for diagnosis without publishing
+            # it as a completed task or changing the frozen acceptance threshold.
+            failed = root / 'diagnostics' / task['group'] / district
+            failed.mkdir(parents=True, exist_ok=True)
+            atomic_file(failed / 'baseline_failed.npz', lambda stream:
+                        np.savez_compressed(stream, probs=probs, seeds=seeds))
+            write_json(failed / 'environment.json', env)
+            raise
+
+        def save(output):
+            np.savez_compressed(output, probs=probs, seeds=seeds)
+            output.flush()
+            record = dict(task=task, environment=env, evidence_seconds=evidence_seconds,
+                          fit_seconds=elapsed, peak_cuda_allocated_bytes=allocated,
+                          peak_cuda_reserved_bytes=reserved, baseline_check=metrics,
+                          config=fingerprint(out / 'config.json'),
+                          probabilities=fingerprint(Path(output.name)))
+            write_json(meta, record, replace=True)
+
+        # Publish the probability only after its provenance is ready. An orphan
+        # sidecar from an interrupted write can be replaced under the same lock.
+        atomic_file(prob, save)
+        print(f'Complete: {prob} ({elapsed:.1f}s, peak reserved {reserved / 2**30:.2f} GiB)', flush=True)
+
+
+def run(args):
+    if args.output_root.resolve() == REPO:
+        raise ValueError('Use a separate output root for new-environment results')
+    verify_sources(read_json(REPO / 'SOURCE_MANIFEST.json'))
+    pending = defaultdict(list)
+    for task in plan():
+        if task['shard'] == args.shard:
+            pending[task['group']].append(task)
+    env = environment()
+    for group, tasks in pending.items():
+        base = configuration(group)
+        prepared = prepare(base)
+        for task in tasks:
+            run_task(task, base, prepared, args.output_root, env)
+        del prepared
+
+
+def check_initial_condition(base, prepared, district):
+    """Check zero-initialized conditioning on real inputs for every frozen seed."""
+    import copy
+    import torch
+    from zoning import DEVICE, adapt, train
+    from zoning.model import RetrievalScorer, batch
+
+    x = prepared[2][district]
+    start = train.warm_start(x)
+    z = adapt.support(x).descriptor().to(DEVICE)
+    maximum = 0.0
+    with torch.no_grad():
+        for seed in base['train']['seeds']:
+            plain = RetrievalScorer(x.np_, x.na, start, seed, base['model']['width'])
+            conditioned = copy.deepcopy(plain)
+            conditioned.enable_condition(x.pair_blocks, x.anchor_blocks, adapt.ZDIM)
+            plain, conditioned = plain.to(DEVICE), conditioned.to(DEVICE)
+            for offset in range(0, x.n, 128):
+                t = batch(x, np.arange(offset, min(offset + 128, x.n)))
+                before, after = plain(t), conditioned(dict(t, z=z))
+                if not torch.isfinite(before).all() or not torch.isfinite(after).all():
+                    raise RuntimeError('Non-finite initial condition probabilities')
+                maximum = max(maximum, (before - after).abs().max().item())
+                if not torch.equal(before, after):
+                    raise RuntimeError(f'Zero-conditioning output differs: {maximum}')
+    return dict(passed=True, max_prob_diff=maximum, sites=x.n,
+                seeds=base['train']['seeds'], comparison='torch.equal')
+
+
+def pilot(args):
+    verify_sources(read_json(REPO / 'SOURCE_MANIFEST.json'))
+    base = configuration(args.group)
+    if args.district not in base['districts']:
+        raise ValueError(f'District is absent from {args.group}: {args.district}')
+    reference = args.baseline_root / base['output_dir'] / 'probs' / f'{args.district}.npz'
+    if not reference.is_file():
+        raise FileNotFoundError(f'Historical BASE reference required: {reference}')
+    if args.output_root.resolve() == REPO:
+        raise ValueError('Use a separate output root for the pilot')
+    env = environment()
+    prepared = prepare(base)
+    print(f'Pilot inputs prepared in {prepared[3]:.1f}s', flush=True)
+    historical = read_probs(reference, base, prepared[0][args.district])
+    initial = check_initial_condition(base, prepared, args.district)
+    check_path = args.output_root / 'checks' / args.group / f'{args.district}.json'
+    check_path.parent.mkdir(parents=True, exist_ok=True)
+    ensure_config(check_path, dict(initial_condition=initial, environment=env,
+                                  config=fingerprint(REPO / 'experiment_configs' / f'{args.group}.json')))
+    print(f'Zero-conditioning check passed: {initial}', flush=True)
+    arms = ('BASE',) if args.baseline_only else ('BASE', 'A1')
+    for arm in arms:
+        task = dict(group=args.group, arm=arm, district=args.district, pilot=True)
+        run_task(task, base, prepared, args.output_root, env, historical if arm == 'BASE' else None)
+
+
+def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    modes = parser.add_subparsers(dest='mode', required=True)
+    modes.add_parser('plan', help='Print tasks absent from the original completion manifest')
+    modes.add_parser('check', help='Verify the source manifest and build all four frozen inputs')
+    worker = modes.add_parser('run', help='Run one shard after the checks and pilot pass')
+    worker.add_argument('--shard', type=int, choices=(0, 1), required=True)
+    worker.add_argument('--output-root', type=Path, required=True)
+    test = modes.add_parser('pilot', help='Check historical BASE and measure one A1 district')
+    test.add_argument('--group', choices=GROUPS, required=True)
+    test.add_argument('--district', required=True)
+    test.add_argument('--baseline-root', type=Path, default=REPO)
+    test.add_argument('--baseline-only', action='store_true')
+    test.add_argument('--output-root', type=Path, default=REPO / 'outputs/5090-pilot')
+    args = parser.parse_args()
+    if args.mode == 'plan':
+        print(json.dumps(plan(), ensure_ascii=False, indent=2))
+    elif args.mode == 'check':
+        check()
+    elif args.mode == 'pilot':
+        pilot(args)
+    else:
+        run(args)
+
+
+if __name__ == '__main__':
+    main()

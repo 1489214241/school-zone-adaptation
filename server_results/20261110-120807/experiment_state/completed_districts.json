@@ -1,0 +1,526 @@
+{
+  "k0_s1__T_A0": {
+    "临安区": {
+      "sha256": "8f3e757b445d07a7e991878069a49d0f16139fe0132b2469b2aaaa138a5c058a",
+      "bytes": 668687
+    },
+    "天心区": {
+      "sha256": "229921b976ce03b7a18bf7764b4c31c525a52507daa3a34aaea432287c625bc6",
+      "bytes": 1721613
+    },
+    "富阳区": {
+      "sha256": "01673dab25283cfa93fbcf96c2260b7a5dd142984ad6053892d3b6aefa24a08a",
+      "bytes": 673500
+    },
+    "开福区": {
+      "sha256": "797978e2106fa2ce39916406e03f0819192f76165de13a2680683bee4da0aef6",
+      "bytes": 2370534
+    },
+    "拱墅区": {
+      "sha256": "b07b48ce5dfa8096387cbdbbadd488caeca8d7e6ccb0bffb30d3c3c341c19284",
+      "bytes": 2022912
+    },
+    "芙蓉区": {
+      "sha256": "cf0c9cc7f0c38a2624a8fac0bcaf76207d9ab88611b563d25fd309ef0155dc1b",
+      "bytes": 1289483
+    },
+    "萧山区": {
+      "sha256": "2bfca5454e49fd28ad59b0330bf7e1f703d9fe615d4903b00586eeba5cf15266",
+      "bytes": 2518573
+    },
+    "雨花区": {
+      "sha256": "ba02c0ca98d70719b8f92f1a2efa3cf9793a1c295e8de5fd94c0a5df8bfa8143",
+      "bytes": 4735953
+    }
+  },
+  "k0_s1__T_A1": {
+    "天心区": {
+      "sha256": "565275583118a4f116818a3e3c857436c022efd3f50d145c02f0dc883f546d0f",
+      "bytes": 1727373
+    },
+    "芙蓉区": {
+      "sha256": "a7e4e862e992564025eccd0baed3fdf2287ae112a369c309c137f48ead7083d6",
+      "bytes": 1292946
+    }
+  },
+  "k0_s1__T_AS": {
+    "临安区": {
+      "sha256": "f65f68fab877c75801a4da0282150be0a3c17400992428b1946cb34c021d8c82",
+      "bytes": 671412
+    },
+    "天心区": {
+      "sha256": "7f6693d0346683cf17ef6eefb1b92ff35c50d5a48b068fc1805858abcf0c4c67",
+      "bytes": 1725281
+    },
+    "富阳区": {
+      "sha256": "bf70a40f91f5a0593893dfb81ecc19869f6f512b3607e4643c9e31ef584126f9",
+      "bytes": 672709
+    },
+    "开福区": {
+      "sha256": "aab242f9923d4c469605b5146cdd3debd472320f3ccc06331653a808948673eb",
+      "bytes": 2372111
+    },
+    "拱墅区": {
+      "sha256": "ab0d219d4f85049e885f05e4ca9a4ba119773869840fbd8de3d7508ac7d696d3",
+      "bytes": 2027233
+    },
+    "芙蓉区": {
+      "sha256": "46ad1a62112d23bb66cf5cdaec69da5571fa553c477b90d9be06f07de205f40f",
+      "bytes": 1292538
+    },
+    "萧山区": {
+      "sha256": "57c8bd56bcd1ecb37950435378f3b166f0915f7e00766f5b52d4363fbe54ba2a",
+      "bytes": 2523162
+    },
+    "雨花区": {
+      "sha256": "7d0376aef2965eef48a145c3aefcca5943f09f32350486b8bf5868317ed3f975",
+      "bytes": 4737501
+    }
+  },
+  "k0_s1__T_B1": {
+    "临安区": {
+      "sha256": "d8dd783511319bd7a00277d660fafbb97927f1661f06b73274fe5ad0be0adaed",
+      "bytes": 668858
+    },
+    "天心区": {
+      "sha256": "90c78c0085de69fa1879b641fcd29b2a7f4649ba7adc3fb8d3ccf00461c748ae",
+      "bytes": 1718915
+    },
+    "富阳区": {
+      "sha256": "b91f6003a9f874c55443260c5a3b700d42a0516401c37c585ebac3f3adc78a99",
+      "bytes": 673213
+    },
+    "开福区": {
+      "sha256": "2d9bb7a80573d0162d48baef32de81b3eb1fcb6712488a357d8959fb5e6ea6f5",
+      "bytes": 2365195
+    },
+    "拱墅区": {
+      "sha256": "16cb9ea4c85b6c7529a6923569b71dd517210603acb8045775903a595d187eff",
+      "bytes": 2018413
+    },
+    "芙蓉区": {
+      "sha256": "3a9ebbf04e6ddea2d87ac9b0ec7838a4bf6ac65d1d8ec17caf7ee9cf5e70c65b",
+      "bytes": 1287535
+    },
+    "萧山区": {
+      "sha256": "fc9760fd40343bcc21e0f8049942603f687dd523bb7cba3444e47e9ed985329c",
+      "bytes": 2518452
+    },
+    "雨花区": {
+      "sha256": "4d1401de9151e0273e0c1224ead88a1284081f4081ed261730a2b731893c78ce",
+      "bytes": 4735977
+    }
+  },
+  "k0_s1__T_B2": {
+    "临安区": {
+      "sha256": "7e8fefb26cdf528f7fbf835c36abd2bde0d44327bd3b931c4cb4a224767be9d1",
+      "bytes": 668703
+    },
+    "天心区": {
+      "sha256": "1fd484790dd1a8f81bc5299d8e7d3c208526cdf35edadc0af5b504ec9e05a94b",
+      "bytes": 1720166
+    },
+    "富阳区": {
+      "sha256": "cb4b3a83acf673fe92f78590bdf104f24452923339c5f81c5b47cb9474bf4258",
+      "bytes": 673312
+    },
+    "开福区": {
+      "sha256": "defffcf12b1bd4bb4bf476ffc0f58eb5716b65720a376044f88b9cdd1eda435e",
+      "bytes": 2367634
+    },
+    "拱墅区": {
+      "sha256": "bf85a508be3335acfe832295ef2e32b224f88bb913d9a2e8a48aff033a4aaae5",
+      "bytes": 2019306
+    },
+    "芙蓉区": {
+      "sha256": "f13b5447f3becb1c774e13a047c8280568a1f3aaeffc2962881851dc6a1de4ce",
+      "bytes": 1288716
+    },
+    "萧山区": {
+      "sha256": "652c972dd56fcd6ab258d54ccc8718f5d957f9ae9d87da1f91e207523a520ba9",
+      "bytes": 2518550
+    },
+    "雨花区": {
+      "sha256": "5337d831c3bbbd33ad7e4058b2fb2cc6027dba3d2a95c084e48e4df5b60414d6",
+      "bytes": 4736783
+    }
+  },
+  "k0_s1__T_BASE": {
+    "临安区": {
+      "sha256": "5a0b6b56fbcedac7163f15ddd768bdac7d13c0be6c726692e4313f3d81f669e2",
+      "bytes": 668633
+    },
+    "天心区": {
+      "sha256": "b9fba3f926213394e73b8edd02358fb26445c7316ad3b5a4bed31e71ed47a87b",
+      "bytes": 1720510
+    },
+    "富阳区": {
+      "sha256": "cb1e17f3c8a2073b08706530fa08123a97907a92d110391242a748bb0884d8b4",
+      "bytes": 673439
+    },
+    "开福区": {
+      "sha256": "dfd83ad9890b3aad7a44fe15431ea02fddb6d10c20e1eed2bdf0eb0ca9da1e67",
+      "bytes": 2367718
+    },
+    "拱墅区": {
+      "sha256": "6f4c8b66b9fbdc8f8721b62a1679c5b994907712d9f231eea4f04c3a15eff8e0",
+      "bytes": 2020559
+    },
+    "芙蓉区": {
+      "sha256": "d9fdf2277c76b7ab7ab384b1e61bdd703adb9619b16816e6ed79ce080dfecfd3",
+      "bytes": 1288697
+    },
+    "萧山区": {
+      "sha256": "f11098b86af207daca524a6acce715c7089874183fbf193c2701885fb0b998cf",
+      "bytes": 2518983
+    },
+    "雨花区": {
+      "sha256": "d3caebe2c19f4e86460ff0e272002c7111c872d4cc9ea6822518cfa7bbe5b27f",
+      "bytes": 4737809
+    }
+  },
+  "k1_s1__T_AS": {
+    "天心区": {
+      "sha256": "474dfb710bb3008b8b5db4b58fb6279c454b97e0440cc4de0b79965ba68f6bdb",
+      "bytes": 1724467
+    },
+    "芙蓉区": {
+      "sha256": "8b6643f299a5b72b10a41220ec3b4b4f15a9cda38f8d011ad3974033e14cc7e7",
+      "bytes": 1291689
+    }
+  },
+  "k1_s1__T_B1": {
+    "临安区": {
+      "sha256": "d8eace9f178591eabf03958cb8e5b9f51460e241477143a08bf5ced742ae5509",
+      "bytes": 660931
+    },
+    "天心区": {
+      "sha256": "9417761484f140f509d56aa1357fe774878601a8f74ee7bb5bf5a65445624a96",
+      "bytes": 1720328
+    },
+    "富阳区": {
+      "sha256": "2b61c0a4699c2f6aaf8257a477a109fc9609d4cff796352fede0d0388cc40f09",
+      "bytes": 675635
+    },
+    "开福区": {
+      "sha256": "93bcdfbd133c75590f30f1b1f558a1360bebb0dbc52a284c6848405a70378ea4",
+      "bytes": 2368568
+    },
+    "拱墅区": {
+      "sha256": "74350a68dcceedf70b7fdbbc1f6a592b54c522a9a540001adc98c171b90ee132",
+      "bytes": 2028625
+    },
+    "芙蓉区": {
+      "sha256": "e7a50f351e9ec1b17abda78b7549906cfe0ebee6a5370f66489c8a294d097eeb",
+      "bytes": 1289057
+    },
+    "萧山区": {
+      "sha256": "a67df3518bbe4bb90dc645a8f0f138cb38bad62f2dab433535ce36f3cd9088aa",
+      "bytes": 2523618
+    },
+    "雨花区": {
+      "sha256": "01c553411ec5137a9a5d14430c56b783a26131b66b03e812d438c62343cee015",
+      "bytes": 4744930
+    }
+  },
+  "k1_s1__T_B2": {
+    "临安区": {
+      "sha256": "ac76213a4f4fdbe8ca15e7fbbbbd1c30158e0c75448f1c9ade67459bd5508758",
+      "bytes": 660671
+    },
+    "天心区": {
+      "sha256": "2e612903ab0ee80e36f972a1800081e7eeca747a73d2c10791aa38372cff818e",
+      "bytes": 1720257
+    },
+    "富阳区": {
+      "sha256": "eee56576413d072bd20b394790921545cc4bd296bef1b00b69dfa2dcd56d9d19",
+      "bytes": 675814
+    },
+    "开福区": {
+      "sha256": "d7df4ee8b33ab88fbcd6a9ceaa38d24d247c26833376731f1e56144bbe86b218",
+      "bytes": 2371098
+    },
+    "拱墅区": {
+      "sha256": "04df7f2f0bff0e375cce126b3f7c8badd684b85e8cc7f5590bf314ea4636d2ee",
+      "bytes": 2028637
+    },
+    "芙蓉区": {
+      "sha256": "7f853e6d30ba3e7d6db401606732494b13bb44cfc8d1bef3ab99e3f2f131577c",
+      "bytes": 1289087
+    },
+    "萧山区": {
+      "sha256": "1cbe33336b3fc883d4c168fff1b5a85c9a9c7bdab1510bfe6f7d3bbb64c95762",
+      "bytes": 2523921
+    },
+    "雨花区": {
+      "sha256": "07591350cbe1000c782da1f4c3bc06bb711de134a00c1c3180782f69ed15233a",
+      "bytes": 4740080
+    }
+  },
+  "k1_s1__T_BASE": {
+    "临安区": {
+      "sha256": "31303899ab63c5a59e3abc6bc267256353db615dea95df06b571129b027e9a54",
+      "bytes": 656660
+    },
+    "天心区": {
+      "sha256": "f3ac11fbe725b8d71acb17857c59a0892deed1bfa5a63c3166cb079ab503b353",
+      "bytes": 1719861
+    },
+    "富阳区": {
+      "sha256": "e3f232fb8943540ffada4cd9efe44f2559c05660808c0a195c19a8d1cc9ad164",
+      "bytes": 675885
+    },
+    "开福区": {
+      "sha256": "e065e9245bf987dc09141ad8f89d53cc4d5bc6e655d960d7bf61dcd2dfb447b5",
+      "bytes": 2371479
+    },
+    "拱墅区": {
+      "sha256": "3ad75c882da4208a54df2a6b1883d984eed656915fa1a44f18be65aabba52796",
+      "bytes": 2028172
+    },
+    "芙蓉区": {
+      "sha256": "a5b4c9c0b105609d9138f84ce0bf68f2681c3388baa11e6adfbb57f9377c89d4",
+      "bytes": 1288829
+    },
+    "萧山区": {
+      "sha256": "44d35cf21ffd0a39d90fef2a9592a15e263389a202935d0d298d6de9c2ca7cb0",
+      "bytes": 2524070
+    },
+    "雨花区": {
+      "sha256": "bd7f5e224212352351fde24b85b4e780598f98506005141d97d73c61655ad1e0",
+      "bytes": 4739784
+    }
+  },
+  "k1_s2__T_AS": {
+    "天心区": {
+      "sha256": "7bd7221cbcdabb1d623d1147c33cf2bc3348cb854ec75cc3624a39ef45500dfa",
+      "bytes": 1727630
+    },
+    "开福区": {
+      "sha256": "00c3d7c85046665ab28c0916981364785041dc2e6d3d65662f9983dddefa20da",
+      "bytes": 2375493
+    },
+    "芙蓉区": {
+      "sha256": "2d96881bbe7b84deda8dec49a26bb47c798d9bf39335d588f024b135abca3165",
+      "bytes": 1293399
+    },
+    "雨花区": {
+      "sha256": "2dc8bc011033cd62fb54b855b972ad13a22869d0a536d712c168633e575e11aa",
+      "bytes": 4743340
+    }
+  },
+  "k1_s2__T_B1": {
+    "临安区": {
+      "sha256": "9557bfb283d6d51c5a2aa4b381c1e5f43f184e881c62d7d68bc251d00f875d84",
+      "bytes": 679145
+    },
+    "天心区": {
+      "sha256": "15e069ba709940e8da9ab67b808fa8200b456fc9d05c09320724cf1b3be57025",
+      "bytes": 1722674
+    },
+    "富阳区": {
+      "sha256": "f8a9fa1d0f57acdbcbf10975954a076ad2bab3f65777408a351954110c5b626b",
+      "bytes": 676883
+    },
+    "开福区": {
+      "sha256": "fd55652e549f3c37757c11ff8aad25b2efdb80578665bd811624e283255c1cb9",
+      "bytes": 2371989
+    },
+    "拱墅区": {
+      "sha256": "fc7d2da49b150ec94a69ce2603efa7f1e3872728e1c31f3b2fc44c1a24c26d7f",
+      "bytes": 2030397
+    },
+    "芙蓉区": {
+      "sha256": "c2588554ae48aa762589e42a4ffd6741534c182f82026939165ff23d2ee9c582",
+      "bytes": 1289674
+    },
+    "萧山区": {
+      "sha256": "8dff2104f44bc4e128cca8c980694ebbbfac3dbaaa399a6aec9e4cd51a997c8d",
+      "bytes": 2519858
+    },
+    "雨花区": {
+      "sha256": "89ba8cbfd424509c572a0d0470ee03bce995cacd4cfec5d287b0ec9abe79ed54",
+      "bytes": 4749590
+    }
+  },
+  "k1_s2__T_B2": {
+    "临安区": {
+      "sha256": "5aa806ead0c7ebc26adfa2fe2ffc5dd2f4dc902f1143b70992cfe3805c80be63",
+      "bytes": 677898
+    },
+    "天心区": {
+      "sha256": "5223d6af89dca875b7ab1adaadd8040400422bb6ccbfdf4e7204167219b093d3",
+      "bytes": 1722428
+    },
+    "富阳区": {
+      "sha256": "795256ac782ec2a28b7e444cdb2c4579145d223ca10bf8d9cd3fa9cfc8328f2e",
+      "bytes": 676912
+    },
+    "开福区": {
+      "sha256": "de0510acfdefa13370d34996ca8cf9239255400b6064b67ea6dcb2c796d8b3ed",
+      "bytes": 2372563
+    },
+    "拱墅区": {
+      "sha256": "9eb99eb770b98660e3fe8c62fbc770533bc93d80936ae6df9e8110549e886a35",
+      "bytes": 2029583
+    },
+    "芙蓉区": {
+      "sha256": "e96af1f8e372950922a31b2ab8b5dd96ca3680e7ac613d72009a7ebc074af5b4",
+      "bytes": 1290648
+    },
+    "萧山区": {
+      "sha256": "f89bd1bfade36d17f4b811413f1ae87c299a4209ecf9130922d1e233c7894dac",
+      "bytes": 2519803
+    },
+    "雨花区": {
+      "sha256": "40dae8885145f4ce74b5d4b286c0c21006f1f01c03c3146b58bd4dc5b0fd9273",
+      "bytes": 4746116
+    }
+  },
+  "k1_s2__T_BASE": {
+    "临安区": {
+      "sha256": "39f99a6aec0b0c3dbe5897909d28f93f732c228da0f3533bdb10c68e47206e24",
+      "bytes": 678012
+    },
+    "天心区": {
+      "sha256": "3582533165f088fcaf52e17b7fbdfc9d7569bf07a2c6359c392dff7f24d2f0e8",
+      "bytes": 1722802
+    },
+    "富阳区": {
+      "sha256": "4fd95c58278561690d7993dfcb35340d34df7f662868d7151c421409dc35fd66",
+      "bytes": 676835
+    },
+    "开福区": {
+      "sha256": "a484b499a3213cde3b2b43145fb4930af308526261a1aacfc846864267bb69e1",
+      "bytes": 2372268
+    },
+    "拱墅区": {
+      "sha256": "f955ae4c61e15d4c75ff7a2ab3c172f601444df3a3b28897bebdb135ac215790",
+      "bytes": 2029334
+    },
+    "芙蓉区": {
+      "sha256": "4bec0cbf51531e6f366ab853c8b06545f75310e852b684028581be4b18cbf7ec",
+      "bytes": 1290416
+    },
+    "萧山区": {
+      "sha256": "314ca1ecdb63a605c98fcb2d34f2e3acca9b84b049a20c2075e58a142b03d0f9",
+      "bytes": 2518954
+    },
+    "雨花区": {
+      "sha256": "14711f9e22142a620b219317bb4c9572e4606272efe0a3975c7402026c1be1ab",
+      "bytes": 4744964
+    }
+  },
+  "k1_s3__T_AS": {
+    "天心区": {
+      "sha256": "1c362907a97c21ccd54599a70a6dbb33e9ec7c67982151194dd58b07bdd3ec8f",
+      "bytes": 1724915
+    },
+    "芙蓉区": {
+      "sha256": "39ba8a96238fcb3a5762091e3d6ec6cc8d5500ba6b133490a18635f5b3a31c37",
+      "bytes": 1292769
+    }
+  },
+  "k1_s3__T_B1": {
+    "临安区": {
+      "sha256": "aa703d56843cf64de9f6940d04a0d26f8b4ce56e2f55127cb57645662063f412",
+      "bytes": 681150
+    },
+    "天心区": {
+      "sha256": "13e5c98e37317187844b6d82ca6177fca0c71ec5a6f5a7d5e9aa9ec7d84920ec",
+      "bytes": 1721361
+    },
+    "富阳区": {
+      "sha256": "1ac888342645a0913020c6a202313ad361b7b90f90a3b10ac053d5b859290cb6",
+      "bytes": 672716
+    },
+    "开福区": {
+      "sha256": "7667b44678d471bb484351faa9dd6eb3d20c583f853e71e56ebc3d8509c218f9",
+      "bytes": 2373554
+    },
+    "拱墅区": {
+      "sha256": "a59bb7fafb4928eeb7477eef6bd46e0c550323813fe9c7b1faf733ce760ca4f2",
+      "bytes": 2029470
+    },
+    "芙蓉区": {
+      "sha256": "73b6473fb51933e26a6f27ed71c0379e6cf4c19104d944b133cbc56e88858b5c",
+      "bytes": 1290479
+    },
+    "萧山区": {
+      "sha256": "3692d58d98fd8f786a816db1906ae7c4a34cb63d0d07fc0fcc9a4e09f85ddb7f",
+      "bytes": 2524458
+    },
+    "雨花区": {
+      "sha256": "704c010392586470c3ef755fa196006b0014c70013f3355737aa5b3fe015c05a",
+      "bytes": 4748007
+    }
+  },
+  "k1_s3__T_B2": {
+    "临安区": {
+      "sha256": "12f87e9cc7ce00076ca048ef9eb9910ee5f96388a11798e72aaff2adf56224ef",
+      "bytes": 681262
+    },
+    "天心区": {
+      "sha256": "e5114a96f724b5fcec76541c3c8e221339daa87e2af4152b534b8e54c367b43b",
+      "bytes": 1721362
+    },
+    "富阳区": {
+      "sha256": "8aa428d9de957991583c63bf73e46671cec76e19f5efa37e2cfc5fdb5903ae75",
+      "bytes": 673023
+    },
+    "开福区": {
+      "sha256": "2b9393f4f3dc45b56d891e5a99e4e06131e0d05560327892b3851385bf712035",
+      "bytes": 2374327
+    },
+    "拱墅区": {
+      "sha256": "487bdabadf2b7daef92e7b864f6739533821817dfbd3301987248c3b23ecac7f",
+      "bytes": 2029572
+    },
+    "芙蓉区": {
+      "sha256": "d91a1d98730a9862891d13050a8b9bf03aa876f345c7808aac505fa60f76a430",
+      "bytes": 1290941
+    },
+    "萧山区": {
+      "sha256": "13f3e881f00f91b74c54a1342f189f4087b66502fb3d91572d33d03e10941bd8",
+      "bytes": 2524484
+    },
+    "雨花区": {
+      "sha256": "24ffd49eee82c9f6c005f0e2c84ff6db7175cd5ecad52550a1d8560157815f3b",
+      "bytes": 4743824
+    }
+  },
+  "k1_s3__T_BASE": {
+    "临安区": {
+      "sha256": "cb82a8b095846b4c9306f2566c404b71e6db9ec9697ded8e9ec9ba83070caa6e",
+      "bytes": 681053
+    },
+    "天心区": {
+      "sha256": "fb204603d5fda97bed902f6685576d764d3646b510a0c928df166396a75d4911",
+      "bytes": 1721081
+    },
+    "富阳区": {
+      "sha256": "664c32804f9af61e30886898134d7f44c7276af9472bee550ff6a9adb219a932",
+      "bytes": 673007
+    },
+    "开福区": {
+      "sha256": "afeea68a0998329fe4c683f4dbc453a8e8b797e0995bc538e1b770422c4c0895",
+      "bytes": 2374722
+    },
+    "拱墅区": {
+      "sha256": "d94e822fd33447233e5f5496cab9f946a466f4b586ea75eafca881a6a3997794",
+      "bytes": 2029535
+    },
+    "芙蓉区": {
+      "sha256": "bc5ca9d97436e40294d03d6f50af87436c0ab2f54836ed1f2ccc0f759ceb7083",
+      "bytes": 1290379
+    },
+    "萧山区": {
+      "sha256": "b27e8149732ab54fea062ba2077599a8173339d9eb23646d05640ea9bc21e187",
+      "bytes": 2524491
+    },
+    "雨花区": {
+      "sha256": "895b1cbad0b932f94141d678f17792274175132212b0988be54a3e00e65c64a1",
+      "bytes": 4743274
+    }
+  }
+}

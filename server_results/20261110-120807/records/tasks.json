@@ -1,0 +1,422 @@
+[
+  {
+    "group": "k0_s1",
+    "arm": "A1",
+    "district": "雨花区",
+    "shard": 0
+  },
+  {
+    "group": "k0_s1",
+    "arm": "A1",
+    "district": "开福区",
+    "shard": 1
+  },
+  {
+    "group": "k0_s1",
+    "arm": "A1",
+    "district": "拱墅区",
+    "shard": 0
+  },
+  {
+    "group": "k0_s1",
+    "arm": "A1",
+    "district": "萧山区",
+    "shard": 1
+  },
+  {
+    "group": "k0_s1",
+    "arm": "A1",
+    "district": "富阳区",
+    "shard": 0
+  },
+  {
+    "group": "k0_s1",
+    "arm": "A1",
+    "district": "临安区",
+    "shard": 1
+  },
+  {
+    "group": "k1_s1",
+    "arm": "AS",
+    "district": "雨花区",
+    "shard": 0
+  },
+  {
+    "group": "k1_s1",
+    "arm": "AS",
+    "district": "开福区",
+    "shard": 1
+  },
+  {
+    "group": "k1_s1",
+    "arm": "AS",
+    "district": "拱墅区",
+    "shard": 0
+  },
+  {
+    "group": "k1_s1",
+    "arm": "AS",
+    "district": "萧山区",
+    "shard": 1
+  },
+  {
+    "group": "k1_s1",
+    "arm": "AS",
+    "district": "富阳区",
+    "shard": 0
+  },
+  {
+    "group": "k1_s1",
+    "arm": "AS",
+    "district": "临安区",
+    "shard": 1
+  },
+  {
+    "group": "k1_s1",
+    "arm": "A0",
+    "district": "天心区",
+    "shard": 0
+  },
+  {
+    "group": "k1_s1",
+    "arm": "A0",
+    "district": "芙蓉区",
+    "shard": 1
+  },
+  {
+    "group": "k1_s1",
+    "arm": "A0",
+    "district": "雨花区",
+    "shard": 0
+  },
+  {
+    "group": "k1_s1",
+    "arm": "A0",
+    "district": "开福区",
+    "shard": 1
+  },
+  {
+    "group": "k1_s1",
+    "arm": "A0",
+    "district": "拱墅区",
+    "shard": 0
+  },
+  {
+    "group": "k1_s1",
+    "arm": "A0",
+    "district": "萧山区",
+    "shard": 1
+  },
+  {
+    "group": "k1_s1",
+    "arm": "A0",
+    "district": "富阳区",
+    "shard": 0
+  },
+  {
+    "group": "k1_s1",
+    "arm": "A0",
+    "district": "临安区",
+    "shard": 1
+  },
+  {
+    "group": "k1_s1",
+    "arm": "A1",
+    "district": "天心区",
+    "shard": 0
+  },
+  {
+    "group": "k1_s1",
+    "arm": "A1",
+    "district": "芙蓉区",
+    "shard": 1
+  },
+  {
+    "group": "k1_s1",
+    "arm": "A1",
+    "district": "雨花区",
+    "shard": 0
+  },
+  {
+    "group": "k1_s1",
+    "arm": "A1",
+    "district": "开福区",
+    "shard": 1
+  },
+  {
+    "group": "k1_s1",
+    "arm": "A1",
+    "district": "拱墅区",
+    "shard": 0
+  },
+  {
+    "group": "k1_s1",
+    "arm": "A1",
+    "district": "萧山区",
+    "shard": 1
+  },
+  {
+    "group": "k1_s1",
+    "arm": "A1",
+    "district": "富阳区",
+    "shard": 0
+  },
+  {
+    "group": "k1_s1",
+    "arm": "A1",
+    "district": "临安区",
+    "shard": 1
+  },
+  {
+    "group": "k1_s2",
+    "arm": "AS",
+    "district": "拱墅区",
+    "shard": 0
+  },
+  {
+    "group": "k1_s2",
+    "arm": "AS",
+    "district": "萧山区",
+    "shard": 1
+  },
+  {
+    "group": "k1_s2",
+    "arm": "AS",
+    "district": "富阳区",
+    "shard": 0
+  },
+  {
+    "group": "k1_s2",
+    "arm": "AS",
+    "district": "临安区",
+    "shard": 1
+  },
+  {
+    "group": "k1_s2",
+    "arm": "A0",
+    "district": "天心区",
+    "shard": 0
+  },
+  {
+    "group": "k1_s2",
+    "arm": "A0",
+    "district": "芙蓉区",
+    "shard": 1
+  },
+  {
+    "group": "k1_s2",
+    "arm": "A0",
+    "district": "雨花区",
+    "shard": 0
+  },
+  {
+    "group": "k1_s2",
+    "arm": "A0",
+    "district": "开福区",
+    "shard": 1
+  },
+  {
+    "group": "k1_s2",
+    "arm": "A0",
+    "district": "拱墅区",
+    "shard": 0
+  },
+  {
+    "group": "k1_s2",
+    "arm": "A0",
+    "district": "萧山区",
+    "shard": 1
+  },
+  {
+    "group": "k1_s2",
+    "arm": "A0",
+    "district": "富阳区",
+    "shard": 0
+  },
+  {
+    "group": "k1_s2",
+    "arm": "A0",
+    "district": "临安区",
+    "shard": 1
+  },
+  {
+    "group": "k1_s2",
+    "arm": "A1",
+    "district": "天心区",
+    "shard": 0
+  },
+  {
+    "group": "k1_s2",
+    "arm": "A1",
+    "district": "芙蓉区",
+    "shard": 1
+  },
+  {
+    "group": "k1_s2",
+    "arm": "A1",
+    "district": "雨花区",
+    "shard": 0
+  },
+  {
+    "group": "k1_s2",
+    "arm": "A1",
+    "district": "开福区",
+    "shard": 1
+  },
+  {
+    "group": "k1_s2",
+    "arm": "A1",
+    "district": "拱墅区",
+    "shard": 0
+  },
+  {
+    "group": "k1_s2",
+    "arm": "A1",
+    "district": "萧山区",
+    "shard": 1
+  },
+  {
+    "group": "k1_s2",
+    "arm": "A1",
+    "district": "富阳区",
+    "shard": 0
+  },
+  {
+    "group": "k1_s2",
+    "arm": "A1",
+    "district": "临安区",
+    "shard": 1
+  },
+  {
+    "group": "k1_s3",
+    "arm": "AS",
+    "district": "雨花区",
+    "shard": 0
+  },
+  {
+    "group": "k1_s3",
+    "arm": "AS",
+    "district": "开福区",
+    "shard": 1
+  },
+  {
+    "group": "k1_s3",
+    "arm": "AS",
+    "district": "拱墅区",
+    "shard": 0
+  },
+  {
+    "group": "k1_s3",
+    "arm": "AS",
+    "district": "萧山区",
+    "shard": 1
+  },
+  {
+    "group": "k1_s3",
+    "arm": "AS",
+    "district": "富阳区",
+    "shard": 0
+  },
+  {
+    "group": "k1_s3",
+    "arm": "AS",
+    "district": "临安区",
+    "shard": 1
+  },
+  {
+    "group": "k1_s3",
+    "arm": "A0",
+    "district": "天心区",
+    "shard": 0
+  },
+  {
+    "group": "k1_s3",
+    "arm": "A0",
+    "district": "芙蓉区",
+    "shard": 1
+  },
+  {
+    "group": "k1_s3",
+    "arm": "A0",
+    "district": "雨花区",
+    "shard": 0
+  },
+  {
+    "group": "k1_s3",
+    "arm": "A0",
+    "district": "开福区",
+    "shard": 1
+  },
+  {
+    "group": "k1_s3",
+    "arm": "A0",
+    "district": "拱墅区",
+    "shard": 0
+  },
+  {
+    "group": "k1_s3",
+    "arm": "A0",
+    "district": "萧山区",
+    "shard": 1
+  },
+  {
+    "group": "k1_s3",
+    "arm": "A0",
+    "district": "富阳区",
+    "shard": 0
+  },
+  {
+    "group": "k1_s3",
+    "arm": "A0",
+    "district": "临安区",
+    "shard": 1
+  },
+  {
+    "group": "k1_s3",
+    "arm": "A1",
+    "district": "天心区",
+    "shard": 0
+  },
+  {
+    "group": "k1_s3",
+    "arm": "A1",
+    "district": "芙蓉区",
+    "shard": 1
+  },
+  {
+    "group": "k1_s3",
+    "arm": "A1",
+    "district": "雨花区",
+    "shard": 0
+  },
+  {
+    "group": "k1_s3",
+    "arm": "A1",
+    "district": "开福区",
+    "shard": 1
+  },
+  {
+    "group": "k1_s3",
+    "arm": "A1",
+    "district": "拱墅区",
+    "shard": 0
+  },
+  {
+    "group": "k1_s3",
+    "arm": "A1",
+    "district": "萧山区",
+    "shard": 1
+  },
+  {
+    "group": "k1_s3",
+    "arm": "A1",
+    "district": "富阳区",
+    "shard": 0
+  },
+  {
+    "group": "k1_s3",
+    "arm": "A1",
+    "district": "临安区",
+    "shard": 1
+  }
+]

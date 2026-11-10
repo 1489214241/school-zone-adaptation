@@ -1,0 +1,78 @@
+{
+  "started_utc": "2026-11-10T10:44:00Z",
+  "source_commit": "fa1d1b10fd1d4a8b402598a5f5943dc257349029",
+  "source_files_verified": 191,
+  "preserved_plan_sha256": "423f9c4117951c4c8a28cf2637ad9e809b93bdc6fa0b68889a2da2d02ab37801",
+  "preserved_patch_sha256": "42dcd959645791343f1974475a8bc81589ff09905b84558de66851184307c8e1",
+  "gpu_access": {
+    "sandbox": "No NVIDIA device nodes; nvidia-smi unavailable",
+    "host": "Two idle RTX 5090 GPUs; driver 595.99.02; 32607 MiB each",
+    "container": "Host execution has initial PID namespace; no /.dockerenv"
+  },
+  "proxy": {
+    "endpoint": "127.0.0.1:17897",
+    "host_tcp": "connected",
+    "host_github_https": "200",
+    "sandbox_curl_github": "200",
+    "sandbox_git": "TLS handshake error; host clone succeeded"
+  },
+  "github_auth": "No gh CLI, no gh hosts config, no GH_TOKEN or GITHUB_TOKEN; user asked to log in on server",
+  "status": "all 70 remaining tasks completed successfully; final package pending",
+  "packages": {
+    "torch": "2.7.1+cu128",
+    "numpy": "1.26.4",
+    "scipy": "1.13.1",
+    "shapely": "2.1.1"
+  },
+  "gpu_smoke": {
+    "count": 2,
+    "name": "NVIDIA GeForce RTX 5090",
+    "compute_capability": [
+      12,
+      0
+    ],
+    "result": "both passed actual CUDA matrix multiplication",
+    "deterministic_algorithms": true,
+    "matmul_allow_tf32": false,
+    "cudnn_allow_tf32": false,
+    "cudnn_benchmark": false
+  },
+  "tests": {
+    "passed": 15,
+    "failed": 0
+  },
+  "historical_baselines": {
+    "verified_files": 32,
+    "integrity_record": "baseline-integrity.json"
+  },
+  "execution_commit": "878d09a",
+  "new_training_started": true,
+  "supervisor_pid": 1446407,
+  "data_checks": {
+    "k0_s1": 213.5,
+    "k1_s1": 236.7,
+    "k1_s2": 236.5,
+    "k1_s3": 235.6,
+    "passed": true,
+    "source_files_verified": 191
+  },
+  "current_session_authorization": "User explicitly selected 双卡续跑 after the single-GPU validation and two-GPU continuation flow was explained.",
+  "output_root": "outputs/server-20261110-112800",
+  "initial_condition_first_attempt": {
+    "passed": true,
+    "max_prob_diff": 0.0,
+    "sites": 1298,
+    "seeds": 10
+  },
+  "pilot_summary": "pilot-summary.json",
+  "worker_pids": [
+    1449125,
+    1449126
+  ],
+  "pilot_historical_max_prob_diff": 9.5367431640625e-07,
+  "pilot_historical_changed_predictions": 0,
+  "pilot_historical_changed_correctness": 0,
+  "completed_tasks": 70,
+  "failed_tasks": 0,
+  "completion_summary": "completion-summary.json"
+}

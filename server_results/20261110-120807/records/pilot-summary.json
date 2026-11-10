@@ -1,0 +1,87 @@
+{
+  "group": "k1_s1",
+  "district": "雨花区",
+  "initial_condition": {
+    "passed": true,
+    "max_prob_diff": 0.0,
+    "sites": 1298,
+    "seeds": [
+      20261131,
+      20261132,
+      20261133,
+      20261134,
+      20261135,
+      20261136,
+      20261137,
+      20261138,
+      20261139,
+      20261140
+    ],
+    "comparison": "torch.equal"
+  },
+  "historical_baseline": {
+    "max_prob_diff": 9.5367431640625e-07,
+    "changed_predictions": 0,
+    "changed_correctness": 0,
+    "evaluated_sites": 793
+  },
+  "evidence_seconds": 238.79983918182552,
+  "execution_commit": "878d09a20d6230f9670ee7ea126a7a7020431446",
+  "environment": {
+    "python": "3.12.3",
+    "platform": "Linux-6.8.0-146-generic-x86_64-with-glibc2.39",
+    "torch": "2.7.1+cu128",
+    "cuda": "12.8",
+    "cudnn": 90701,
+    "driver": "595.99.02",
+    "cuda_visible_devices": "0",
+    "gpu": "NVIDIA GeForce RTX 5090",
+    "gpu_uuid": "71b4b381-80de-6b4e-f3d9-a8648e581e6b",
+    "gpu_total_bytes": 33670758400,
+    "compute_capability": [
+      12,
+      0
+    ],
+    "cublas_workspace_config": ":4096:8",
+    "deterministic_algorithms": true,
+    "matmul_allow_tf32": false,
+    "cudnn_allow_tf32": false,
+    "cudnn_benchmark": false,
+    "data_dependencies": {
+      "numpy": "1.26.4",
+      "scipy": "1.13.1",
+      "shapely": "2.1.1"
+    },
+    "git_commit": "878d09a20d6230f9670ee7ea126a7a7020431446",
+    "resume_script_sha256": "132a5761e05765f098e2f221eb884f025ff2b66570de243ef477742624610eba",
+    "source_manifest_sha256": "30e2e7a091875110b0a064e5cf2c2af448fa973dd4b3c1926d1d3981ecfab0bd"
+  },
+  "arms": {
+    "BASE": {
+      "fit_seconds": 24.204016303177923,
+      "peak_cuda_allocated_bytes": 1881240576,
+      "peak_cuda_reserved_bytes": 1994391552,
+      "config": {
+        "bytes": 1537,
+        "sha256": "038fbbd6faf22392d1dd59d9026ca0e310b570c08122aab148d6424a34b3cddd"
+      },
+      "probabilities": {
+        "bytes": 4739741,
+        "sha256": "4eedb0094d19085c1102b8beffe7106bafd67b6e51d5e3ed91d6df73aa502f24"
+      }
+    },
+    "A1": {
+      "fit_seconds": 35.555754342116416,
+      "peak_cuda_allocated_bytes": 3447017984,
+      "peak_cuda_reserved_bytes": 3930062848,
+      "config": {
+        "bytes": 1616,
+        "sha256": "e629c874641a036fe91cd5968ca7d16f5282e9d3b8d718175748f66cf573e810"
+      },
+      "probabilities": {
+        "bytes": 4734604,
+        "sha256": "2dec72fc5cf35f29b3b4e5fd8f94037adee8303993efa284b8e48f145835c3d2"
+      }
+    }
+  }
+}

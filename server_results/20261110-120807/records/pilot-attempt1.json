@@ -1,0 +1,10 @@
+{
+  "stage": "failed_pilot",
+  "updated_utc": "2026-11-10T11:27:14Z",
+  "supervisor_pid": 1443498,
+  "output_root": "outputs/server-20261110-111700",
+  "expected_tasks": 70,
+  "original_completed_tasks": 122,
+  "returncode": 1,
+  "log": "outputs/server-20261110-111700/logs/pilot.log"
+}

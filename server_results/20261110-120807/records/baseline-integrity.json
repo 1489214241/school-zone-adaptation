@@ -1,0 +1,14 @@
+{
+  "archive_sha256": "0ea6ac7b848650ba6e3f50423870042556364c30c115adb35d828e303faeeee8",
+  "file_count": 32,
+  "checks": [
+    "sha256",
+    "bytes",
+    "shape",
+    "seeds",
+    "finite",
+    "nonnegative",
+    "normalized"
+  ],
+  "passed": true
+}

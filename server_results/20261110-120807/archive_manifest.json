@@ -1,0 +1,698 @@
+{
+  "outputs/main_pre_v1/k0_s1__T_A1/config.json": {
+    "bytes": 1616,
+    "sha256": "5d043f6e075e9cb8090339008b4f4a81cdc44f74c2be403c7364afba73fbc564"
+  },
+  "outputs/main_pre_v1/k0_s1__T_A1/probs/雨花区.npz": {
+    "bytes": 4735901,
+    "sha256": "facca8961c158726efbe6d060ec12a965dc71f22416dc8fdf8f03f7bf47bca47"
+  },
+  "outputs/main_pre_v1/k0_s1__T_A1/tasks/雨花区.json": {
+    "bytes": 1501,
+    "sha256": "a3756b0e8d2ead9a075a1f610c81b223adb6bd850e5309651c7830ddc1d76ab4"
+  },
+  "outputs/main_pre_v1/k0_s1__T_A1/probs/开福区.npz": {
+    "bytes": 2375909,
+    "sha256": "149ffc017c1e4ff5cda1559c7a32fae5bdb9a4af079f3339f545cce54ef9584b"
+  },
+  "outputs/main_pre_v1/k0_s1__T_A1/tasks/开福区.json": {
+    "bytes": 1502,
+    "sha256": "c6947c88ce664b9973b3fd64118d01e74c20953d7c1c9a2426f5e583a1aca027"
+  },
+  "outputs/main_pre_v1/k0_s1__T_A1/probs/拱墅区.npz": {
+    "bytes": 2029842,
+    "sha256": "248ffc7a46b3265f559b97c7c83fe2d23615b53752723f0d6f9645f9df310d5e"
+  },
+  "outputs/main_pre_v1/k0_s1__T_A1/tasks/拱墅区.json": {
+    "bytes": 1501,
+    "sha256": "446a2bb83fc8586c6f9f7a1c83b4fdf1740790eb259bfefaca0ec87d5e5a74e2"
+  },
+  "outputs/main_pre_v1/k0_s1__T_A1/probs/萧山区.npz": {
+    "bytes": 2522601,
+    "sha256": "18b9d1d1e72c53d30fc8186c66cc72bc69d0c8e317bae0508a71eb90a753ecdd"
+  },
+  "outputs/main_pre_v1/k0_s1__T_A1/tasks/萧山区.json": {
+    "bytes": 1502,
+    "sha256": "fc443c7907f822cb6e9f7755192065d373df09afe480eea9c08b1807cb201d6c"
+  },
+  "outputs/main_pre_v1/k0_s1__T_A1/probs/富阳区.npz": {
+    "bytes": 673251,
+    "sha256": "dfef20495c6eede4aba18e640197488148f4468eb6cd3194c7af2a8efbdb4867"
+  },
+  "outputs/main_pre_v1/k0_s1__T_A1/tasks/富阳区.json": {
+    "bytes": 1500,
+    "sha256": "f70b9e8709e6f5af7735d3f068351be55e067186e92e60143f365b9fe5f90ef0"
+  },
+  "outputs/main_pre_v1/k0_s1__T_A1/probs/临安区.npz": {
+    "bytes": 671184,
+    "sha256": "4d9c9fc624858d15d329d060eb23ad53ff63f3622af5e091b293db52b2955acd"
+  },
+  "outputs/main_pre_v1/k0_s1__T_A1/tasks/临安区.json": {
+    "bytes": 1500,
+    "sha256": "d3b504771966d5ed169020f724914501f45b037107bf37f7bdf481a0662990bc"
+  },
+  "outputs/main_pre_v1/k1_s1__T_AS/config.json": {
+    "bytes": 1577,
+    "sha256": "c06402e865a5abe1ae68351b8fbac38c569e9361f29006272ae1f4c6b3fd9470"
+  },
+  "outputs/main_pre_v1/k1_s1__T_AS/probs/雨花区.npz": {
+    "bytes": 4735383,
+    "sha256": "1c665526703e072e27b4e140fb08413ac5a204d02a339ecc819bb8047f901035"
+  },
+  "outputs/main_pre_v1/k1_s1__T_AS/tasks/雨花区.json": {
+    "bytes": 1501,
+    "sha256": "cdb1e858a55bff77122f67870dad35dd962f53de494f04dd526bb90d34ee323a"
+  },
+  "outputs/main_pre_v1/k1_s1__T_AS/probs/开福区.npz": {
+    "bytes": 2373925,
+    "sha256": "c72409fc31b1bf5ef19b0222507712eb8bd185383ab9c2ee3997aac764aaa07c"
+  },
+  "outputs/main_pre_v1/k1_s1__T_AS/tasks/开福区.json": {
+    "bytes": 1502,
+    "sha256": "c5b223cfb38472721e286e34e9976543a793ac72c03945e9fb4d88ec0d1c43b6"
+  },
+  "outputs/main_pre_v1/k1_s1__T_AS/probs/拱墅区.npz": {
+    "bytes": 2034409,
+    "sha256": "3904315ed16941a741f016f4350ccc5743b88534f4c7494ffd5f8299ffa9b090"
+  },
+  "outputs/main_pre_v1/k1_s1__T_AS/tasks/拱墅区.json": {
+    "bytes": 1502,
+    "sha256": "5340a5a107c1be39151c24afa632a4f3737c8997dc02df87cd1cd9c0ab9c60ae"
+  },
+  "outputs/main_pre_v1/k1_s1__T_AS/probs/萧山区.npz": {
+    "bytes": 2525563,
+    "sha256": "d04611f6a0fcc578ba48b3cb783c0d040fc8d369fd4120daede69be427bdc489"
+  },
+  "outputs/main_pre_v1/k1_s1__T_AS/tasks/萧山区.json": {
+    "bytes": 1502,
+    "sha256": "45bd9c6422652343a01ca9155e85cb3a0cfa8fb745da75fa88afe0748357cbb3"
+  },
+  "outputs/main_pre_v1/k1_s1__T_AS/probs/富阳区.npz": {
+    "bytes": 676134,
+    "sha256": "a9a3ca27f7b4a58ed4d7ec0a14a171116af6032f1c1166c373e9c42532d2bbe3"
+  },
+  "outputs/main_pre_v1/k1_s1__T_AS/tasks/富阳区.json": {
+    "bytes": 1501,
+    "sha256": "8706c603a7f3871245db1b4c17010c32d9ac9043cf9a2cac36d529b0dca1c0af"
+  },
+  "outputs/main_pre_v1/k1_s1__T_AS/probs/临安区.npz": {
+    "bytes": 635762,
+    "sha256": "362451586a8a2ab7d89f662a90832a7fdc97de18e1a4d8334a47208f5a340594"
+  },
+  "outputs/main_pre_v1/k1_s1__T_AS/tasks/临安区.json": {
+    "bytes": 1501,
+    "sha256": "07ff45b805274699c7569b621f7c6f2aa4eb731bfd41c1c73b1e7481cd98130d"
+  },
+  "outputs/main_pre_v1/k1_s1__T_A0/config.json": {
+    "bytes": 1584,
+    "sha256": "93b36a4e05bca7debdccefd03cef4a7e1b1b00d863f51b134e51e12f2b5c41de"
+  },
+  "outputs/main_pre_v1/k1_s1__T_A0/probs/天心区.npz": {
+    "bytes": 1719171,
+    "sha256": "1d119ae20679fe1030e62661ea961174dd5c4b17cea27e663c1008482b3c6af7"
+  },
+  "outputs/main_pre_v1/k1_s1__T_A0/tasks/天心区.json": {
+    "bytes": 1502,
+    "sha256": "d58e36ab6495d80147b936274e7b73aaa60c14ea71138cc30aad700550f39fa8"
+  },
+  "outputs/main_pre_v1/k1_s1__T_A0/probs/芙蓉区.npz": {
+    "bytes": 1287958,
+    "sha256": "cb38434a8f31044a043e0929559bb439e05f104498c786de82fb8ea7717eb270"
+  },
+  "outputs/main_pre_v1/k1_s1__T_A0/tasks/芙蓉区.json": {
+    "bytes": 1502,
+    "sha256": "6509ddad3b5db60f5ab2dd94c07047935d72b677126fd89f9b868ec4dc114d57"
+  },
+  "outputs/main_pre_v1/k1_s1__T_A0/probs/雨花区.npz": {
+    "bytes": 4736034,
+    "sha256": "a500ba726cae40163b8761ea8b8308128d58cad56c56db933f7da2e7223508c4"
+  },
+  "outputs/main_pre_v1/k1_s1__T_A0/tasks/雨花区.json": {
+    "bytes": 1502,
+    "sha256": "f234beef8d0fad2af11543000e5c6d6400f9458d7d6640ead0f5bcbf4c9e5814"
+  },
+  "outputs/main_pre_v1/k1_s1__T_A0/probs/开福区.npz": {
+    "bytes": 2370333,
+    "sha256": "d12b993de6bb138ebdc29ce4e1655215186656df505095b1e12061adf28dfa79"
+  },
+  "outputs/main_pre_v1/k1_s1__T_A0/tasks/开福区.json": {
+    "bytes": 1502,
+    "sha256": "9f4c43880d339cd14c8196fc5c911a17d75145743d5e8a8f4efd412b67d49f7d"
+  },
+  "outputs/main_pre_v1/k1_s1__T_A0/probs/拱墅区.npz": {
+    "bytes": 2028748,
+    "sha256": "63fd18881958f370a06f58a8fce64f3be9a21b820998c14e731ba5ff375c2029"
+  },
+  "outputs/main_pre_v1/k1_s1__T_A0/tasks/拱墅区.json": {
+    "bytes": 1502,
+    "sha256": "7a824429c6ace88384e882e55d7178a3a9d74e833768337915ac4cdf5eafe565"
+  },
+  "outputs/main_pre_v1/k1_s1__T_A0/probs/萧山区.npz": {
+    "bytes": 2523878,
+    "sha256": "5bbd5306d11c0708ce1ea64ee8389f7833c868bc7ea4d3fb1d1d216bac3ba298"
+  },
+  "outputs/main_pre_v1/k1_s1__T_A0/tasks/萧山区.json": {
+    "bytes": 1502,
+    "sha256": "4acbb1161980f8b14cbac966f521521d1559a0d1dd3d640355a43bce3b67b931"
+  },
+  "outputs/main_pre_v1/k1_s1__T_A0/probs/富阳区.npz": {
+    "bytes": 675827,
+    "sha256": "b134c5d51200d1cf42717fa5ed352e046f2dfa704b73b2144aa8393a64c39019"
+  },
+  "outputs/main_pre_v1/k1_s1__T_A0/tasks/富阳区.json": {
+    "bytes": 1501,
+    "sha256": "9079eeeb14ac0b15bba41a3d9e9635bf6fce85ccc488e4177128b814ce71a1b9"
+  },
+  "outputs/main_pre_v1/k1_s1__T_A0/probs/临安区.npz": {
+    "bytes": 657731,
+    "sha256": "1d244c85371b39bec1f4726f0edb1ef348cf9403f47e5e17d973d683170b732f"
+  },
+  "outputs/main_pre_v1/k1_s1__T_A0/tasks/临安区.json": {
+    "bytes": 1501,
+    "sha256": "0342cfc0d8031de297a763e134e322fb8dc280ce899fbbcd3a31a168c0e042a2"
+  },
+  "outputs/main_pre_v1/k1_s1__T_A1/config.json": {
+    "bytes": 1616,
+    "sha256": "e629c874641a036fe91cd5968ca7d16f5282e9d3b8d718175748f66cf573e810"
+  },
+  "outputs/main_pre_v1/k1_s1__T_A1/probs/天心区.npz": {
+    "bytes": 1723988,
+    "sha256": "e3d6048c0c75919c88f98e545d820ea764b8beac00a1a2608f4312ef798a3f30"
+  },
+  "outputs/main_pre_v1/k1_s1__T_A1/tasks/天心区.json": {
+    "bytes": 1502,
+    "sha256": "995441bab77a90910e85a8cafc65339dd43dc4272df85882ba501742fdfbfda1"
+  },
+  "outputs/main_pre_v1/k1_s1__T_A1/probs/芙蓉区.npz": {
+    "bytes": 1291687,
+    "sha256": "e8f3616b62b1d2deaf2dea52b3a7b1b0906cd343c7386bac1e25aeafe248e84b"
+  },
+  "outputs/main_pre_v1/k1_s1__T_A1/tasks/芙蓉区.json": {
+    "bytes": 1500,
+    "sha256": "db284179463456884314dd55442f72440c72bc2521900bdcb42fc331779cb7e6"
+  },
+  "outputs/main_pre_v1/k1_s1__T_A1/probs/雨花区.npz": {
+    "bytes": 4734604,
+    "sha256": "2dec72fc5cf35f29b3b4e5fd8f94037adee8303993efa284b8e48f145835c3d2"
+  },
+  "outputs/main_pre_v1/k1_s1__T_A1/tasks/雨花区.json": {
+    "bytes": 1505,
+    "sha256": "5e33cb1f19a17f166a6c9ba71362fc37d6f4a19fdc4ff036526a38704c6bce9f"
+  },
+  "outputs/main_pre_v1/k1_s1__T_A1/probs/开福区.npz": {
+    "bytes": 2373993,
+    "sha256": "0783ccb17f310711f801cd1c14066978dba3bc4335d24d5f8fc379415169d3ff"
+  },
+  "outputs/main_pre_v1/k1_s1__T_A1/tasks/开福区.json": {
+    "bytes": 1502,
+    "sha256": "0853a654daf35ac7a13b4da82ef20085820b146e256ecf296b976fdbe9091072"
+  },
+  "outputs/main_pre_v1/k1_s1__T_A1/probs/拱墅区.npz": {
+    "bytes": 2035430,
+    "sha256": "0d60e42724335cafdd42f66f4ebdcb816830e2ac9c07736c7adbcbbeeaa8dfe1"
+  },
+  "outputs/main_pre_v1/k1_s1__T_A1/tasks/拱墅区.json": {
+    "bytes": 1500,
+    "sha256": "a26d879fd726a0c5c4a8e656ce382a5f2f71bbd357f73b1b6efc441839f6f04a"
+  },
+  "outputs/main_pre_v1/k1_s1__T_A1/probs/萧山区.npz": {
+    "bytes": 2525064,
+    "sha256": "d0b00f6ff2a504405e7834463d0c899cf2b26245fffee844c671ad39526c88d9"
+  },
+  "outputs/main_pre_v1/k1_s1__T_A1/tasks/萧山区.json": {
+    "bytes": 1502,
+    "sha256": "f2a79801b4100c22246847b3ce6b0d8468ccad673f9dbf46ef09e59b9dd9b152"
+  },
+  "outputs/main_pre_v1/k1_s1__T_A1/probs/富阳区.npz": {
+    "bytes": 676398,
+    "sha256": "27def3a6b60940a4fb9f060fdbcf15c7e8f6d139a9046239f43032ec60f2c994"
+  },
+  "outputs/main_pre_v1/k1_s1__T_A1/tasks/富阳区.json": {
+    "bytes": 1500,
+    "sha256": "a20286303f1f07c3a379376648c3fd17aa35c231962d9f55c88eb54407c0d5e9"
+  },
+  "outputs/main_pre_v1/k1_s1__T_A1/probs/临安区.npz": {
+    "bytes": 626930,
+    "sha256": "2b944ec6a826f50a6b62c73a6e1cc10253c860480954ef787a9e8a08463336a2"
+  },
+  "outputs/main_pre_v1/k1_s1__T_A1/tasks/临安区.json": {
+    "bytes": 1499,
+    "sha256": "a66e3350eaba1b330e7629d483bd273da99f81f1d5e6a16e60526a564c07ade2"
+  },
+  "outputs/main_pre_v1/k1_s2__T_AS/config.json": {
+    "bytes": 1577,
+    "sha256": "5cad9565fd84bb40d7fb766f80650bce7150b03cbde45ee169d34401ec107184"
+  },
+  "outputs/main_pre_v1/k1_s2__T_AS/probs/拱墅区.npz": {
+    "bytes": 2034987,
+    "sha256": "fcbbf80ebd53116d6b97ee3d16d3a5fca96b06b92d8d3dea4cbb2916c8682eaa"
+  },
+  "outputs/main_pre_v1/k1_s2__T_AS/tasks/拱墅区.json": {
+    "bytes": 1501,
+    "sha256": "9d08b14e80ff6c7c0fd57a0625f9d26bbbfd9ebec1dc51210e5b2a35c94d225a"
+  },
+  "outputs/main_pre_v1/k1_s2__T_AS/probs/萧山区.npz": {
+    "bytes": 2524108,
+    "sha256": "69c20b71589d9482eb00f9cb90d8258b2d6f207edbcdd9b45411067b1e79a1e8"
+  },
+  "outputs/main_pre_v1/k1_s2__T_AS/tasks/萧山区.json": {
+    "bytes": 1502,
+    "sha256": "762ca4ed87b607a8ed727de728c5f61cf420a1b72bfcd9996ccea8321e1b3ffc"
+  },
+  "outputs/main_pre_v1/k1_s2__T_AS/probs/富阳区.npz": {
+    "bytes": 676800,
+    "sha256": "a3f2493c5f97687338307105cddd4639658a6ef098a8af3027fe5e81622ca126"
+  },
+  "outputs/main_pre_v1/k1_s2__T_AS/tasks/富阳区.json": {
+    "bytes": 1500,
+    "sha256": "19ddc6bce74e011bf3703460d373ba9c3ef11cec62e02a95bf5c7cd512785229"
+  },
+  "outputs/main_pre_v1/k1_s2__T_AS/probs/临安区.npz": {
+    "bytes": 652090,
+    "sha256": "28f46b184ace91f85fef2c3efa7baf1a84c2de68dc785a2226f6b089ca1a1e87"
+  },
+  "outputs/main_pre_v1/k1_s2__T_AS/tasks/临安区.json": {
+    "bytes": 1501,
+    "sha256": "7df8b629c313c16019cd6cbfa611459ca3892e8a40d87650829cb3725ececf7d"
+  },
+  "outputs/main_pre_v1/k1_s2__T_A0/config.json": {
+    "bytes": 1584,
+    "sha256": "52424e8cb461caabb0d96e91919d668703a826deb02619c83cf24890011b237f"
+  },
+  "outputs/main_pre_v1/k1_s2__T_A0/probs/天心区.npz": {
+    "bytes": 1721263,
+    "sha256": "dc3acd55f769373b92c74cc7dbe5a6e07c20ae5e944d219899f7815b626cc3a5"
+  },
+  "outputs/main_pre_v1/k1_s2__T_A0/tasks/天心区.json": {
+    "bytes": 1501,
+    "sha256": "fc191b6d76381769a179b7d8f723a9e3558fd88e272e4cbd0aa2c420c8acc5b5"
+  },
+  "outputs/main_pre_v1/k1_s2__T_A0/probs/芙蓉区.npz": {
+    "bytes": 1288622,
+    "sha256": "97c4b4e6a5b8b12ecb5f92ffdcaa59b887ca89d1c8232e5314227e006046421c"
+  },
+  "outputs/main_pre_v1/k1_s2__T_A0/tasks/芙蓉区.json": {
+    "bytes": 1502,
+    "sha256": "a06f0dc0f99a61183c2caa6b3d06729b25a96686a847997fd9fd47ee90ecd0ab"
+  },
+  "outputs/main_pre_v1/k1_s2__T_A0/probs/雨花区.npz": {
+    "bytes": 4738760,
+    "sha256": "f46c72a89f143d1f83193efe16089421270b05a46896b58e099045c3f3f02175"
+  },
+  "outputs/main_pre_v1/k1_s2__T_A0/tasks/雨花区.json": {
+    "bytes": 1500,
+    "sha256": "1f91263048b39ed0be48d71d2502c4a5b353a06b3d89acca7235b0baede07e83"
+  },
+  "outputs/main_pre_v1/k1_s2__T_A0/probs/开福区.npz": {
+    "bytes": 2370860,
+    "sha256": "41b4f5b59940fdeb4276f044966513457d13c91a65bc9f4c70ae4675910b1209"
+  },
+  "outputs/main_pre_v1/k1_s2__T_A0/tasks/开福区.json": {
+    "bytes": 1502,
+    "sha256": "7f79e8eb93ea9620de77d9d0717dfd134f09539831535f9b55b859c0643c4b04"
+  },
+  "outputs/main_pre_v1/k1_s2__T_A0/probs/拱墅区.npz": {
+    "bytes": 2028940,
+    "sha256": "872988d97df922310f9fd63d5ad7b9802b68ce9432261227c5ea8fff4db25fe8"
+  },
+  "outputs/main_pre_v1/k1_s2__T_A0/tasks/拱墅区.json": {
+    "bytes": 1500,
+    "sha256": "30bfd654204291d9704974fb2f4a81120892836569e4a643a431aa6a338b7a54"
+  },
+  "outputs/main_pre_v1/k1_s2__T_A0/probs/萧山区.npz": {
+    "bytes": 2518646,
+    "sha256": "dcf88da71ab20a314218fc691cef43f46678d4abbc31db737c8c66ac158c743f"
+  },
+  "outputs/main_pre_v1/k1_s2__T_A0/tasks/萧山区.json": {
+    "bytes": 1501,
+    "sha256": "430bca2f88645dc23bc9ed471d6bf79fb5e4be8a5165daf2ad85fdb7693ceaec"
+  },
+  "outputs/main_pre_v1/k1_s2__T_A0/probs/富阳区.npz": {
+    "bytes": 676812,
+    "sha256": "4d7027a51a7f3325d9d08b689b8e14d1588357c4b5b56eac81c6570d5b06c179"
+  },
+  "outputs/main_pre_v1/k1_s2__T_A0/tasks/富阳区.json": {
+    "bytes": 1500,
+    "sha256": "810b66dd5e5c3b0fc102cb68c3b9130f2adb40ac7e7a124f8ce20b9f761978ab"
+  },
+  "outputs/main_pre_v1/k1_s2__T_A0/probs/临安区.npz": {
+    "bytes": 677490,
+    "sha256": "ee4e1e7591306e4a87a52a583891c2672294aa44b173b61ebd60df9622788355"
+  },
+  "outputs/main_pre_v1/k1_s2__T_A0/tasks/临安区.json": {
+    "bytes": 1501,
+    "sha256": "7a5362e3aae116c6bd35427f0473530cd3233fd83e411761fb01b9e2751e6183"
+  },
+  "outputs/main_pre_v1/k1_s2__T_A1/config.json": {
+    "bytes": 1616,
+    "sha256": "093c7724e7f488e45166327852e57bc1a1d26f8180e62eefe1bc84bd8465ebae"
+  },
+  "outputs/main_pre_v1/k1_s2__T_A1/probs/天心区.npz": {
+    "bytes": 1726013,
+    "sha256": "50aa226b200334a81614f301552c7cf430fda0260414572992b8a693f239bbd1"
+  },
+  "outputs/main_pre_v1/k1_s2__T_A1/tasks/天心区.json": {
+    "bytes": 1500,
+    "sha256": "68404a5f0998c214e60eaa617378f83afc458661e80c1c6f0262a576217391ba"
+  },
+  "outputs/main_pre_v1/k1_s2__T_A1/probs/芙蓉区.npz": {
+    "bytes": 1292358,
+    "sha256": "cd0ef78f9efd1e885c95a0093e6a2ae9eb2e707a2ec01f017d6de75d72ce6ac8"
+  },
+  "outputs/main_pre_v1/k1_s2__T_A1/tasks/芙蓉区.json": {
+    "bytes": 1502,
+    "sha256": "c08aadc877becfc36b961abca4e46d36c782131976a4f18aa17c90582b0a9f7b"
+  },
+  "outputs/main_pre_v1/k1_s2__T_A1/probs/雨花区.npz": {
+    "bytes": 4738089,
+    "sha256": "9d7bd2fe2fad75697bffffed8d7a16cf1f0b24c23250b2fe02a48fef522d532d"
+  },
+  "outputs/main_pre_v1/k1_s2__T_A1/tasks/雨花区.json": {
+    "bytes": 1500,
+    "sha256": "baa945ddda33cf0e921b749ae03a79b05a6a15583077cad4d28e3f39322f6c95"
+  },
+  "outputs/main_pre_v1/k1_s2__T_A1/probs/开福区.npz": {
+    "bytes": 2374602,
+    "sha256": "5ed2710b782dd91819fec35c91cdea50de539c06d66f758faab64e27a3cd1234"
+  },
+  "outputs/main_pre_v1/k1_s2__T_A1/tasks/开福区.json": {
+    "bytes": 1502,
+    "sha256": "8600ed910db1c96621ac65585fea48f4f28f592dea5dc3ca0276eb0757008db3"
+  },
+  "outputs/main_pre_v1/k1_s2__T_A1/probs/拱墅区.npz": {
+    "bytes": 2035246,
+    "sha256": "9339ebb56ddba44be7c0c19c5f81fc36e3a4ca4ff966c2e40418ed0646a46f17"
+  },
+  "outputs/main_pre_v1/k1_s2__T_A1/tasks/拱墅区.json": {
+    "bytes": 1500,
+    "sha256": "f3cf6ec62d64dc32cb3210433a047f57e0ed642ed7e15db74bccc93327e897d4"
+  },
+  "outputs/main_pre_v1/k1_s2__T_A1/probs/萧山区.npz": {
+    "bytes": 2522691,
+    "sha256": "2c81310441ab7e158db8514cea41b2e66ae01156308bae5cc98697274b90a470"
+  },
+  "outputs/main_pre_v1/k1_s2__T_A1/tasks/萧山区.json": {
+    "bytes": 1502,
+    "sha256": "6fa69e1a0436cd7941201c69070174e334414c136468a4b305976303d2eb3359"
+  },
+  "outputs/main_pre_v1/k1_s2__T_A1/probs/富阳区.npz": {
+    "bytes": 676574,
+    "sha256": "cbe93db60a6ec28ff6a46c0846e95e2b4b9651673f38e0614dd06c11fdf75ef8"
+  },
+  "outputs/main_pre_v1/k1_s2__T_A1/tasks/富阳区.json": {
+    "bytes": 1499,
+    "sha256": "775eb79a9216d0d3784583220f5c30cacc43dda5881df40c0e78edfe032b4ae7"
+  },
+  "outputs/main_pre_v1/k1_s2__T_A1/probs/临安区.npz": {
+    "bytes": 648056,
+    "sha256": "84fa321d9a2a967a173a66994a74cbc19c7dff2790a96d4cf0f8350e6bdb9ebe"
+  },
+  "outputs/main_pre_v1/k1_s2__T_A1/tasks/临安区.json": {
+    "bytes": 1500,
+    "sha256": "09e5c87921af6394e426ff3b4ac84f20effa401decc8b08510c4e3046a4127a1"
+  },
+  "outputs/main_pre_v1/k1_s3__T_AS/config.json": {
+    "bytes": 1577,
+    "sha256": "efbfc23b37fc44067cba38d0f3fa5f768565e1aae30cde6a65311c972f5d751b"
+  },
+  "outputs/main_pre_v1/k1_s3__T_AS/probs/雨花区.npz": {
+    "bytes": 4740216,
+    "sha256": "f7428eb408d59d72a00d2521fbcfd074a273366980b9158237e5f963be7cbd37"
+  },
+  "outputs/main_pre_v1/k1_s3__T_AS/tasks/雨花区.json": {
+    "bytes": 1502,
+    "sha256": "3f0d4958b15bfb525b292b7b98d0d389c5276f17746d758c6b9183682f6c7b5d"
+  },
+  "outputs/main_pre_v1/k1_s3__T_AS/probs/开福区.npz": {
+    "bytes": 2376699,
+    "sha256": "f67c6c5d6f4dd39f34530121f2465136214629432f7ff4244ee87e604baadf81"
+  },
+  "outputs/main_pre_v1/k1_s3__T_AS/tasks/开福区.json": {
+    "bytes": 1501,
+    "sha256": "d723a5ba4706acd4e5999e0648a65691fd4514ad88604e5bf188261d66a033b4"
+  },
+  "outputs/main_pre_v1/k1_s3__T_AS/probs/拱墅区.npz": {
+    "bytes": 2034612,
+    "sha256": "8bcf88d217769a431d8e821e34ce059e1d406c0da28207633dd39d2ce1a034ec"
+  },
+  "outputs/main_pre_v1/k1_s3__T_AS/tasks/拱墅区.json": {
+    "bytes": 1501,
+    "sha256": "b6b2f6bb3aa62f9bf4fb4d835ba12de705f0b64198e48ced5555fe52ba3141a8"
+  },
+  "outputs/main_pre_v1/k1_s3__T_AS/probs/萧山区.npz": {
+    "bytes": 2526133,
+    "sha256": "3a73a5e9a62e93d81d5c4517b8476869106197174ad7793afeb9f2ceb246d6cf"
+  },
+  "outputs/main_pre_v1/k1_s3__T_AS/tasks/萧山区.json": {
+    "bytes": 1502,
+    "sha256": "b4c0c5d77b8d213d38f0405a1870ceeb12280019a794f8da11ccb7c536a0ee6e"
+  },
+  "outputs/main_pre_v1/k1_s3__T_AS/probs/富阳区.npz": {
+    "bytes": 674374,
+    "sha256": "89d1e6b5cad225f76b0eca16d5414d8a07d6d62a54ee689d4f342af4e506fe72"
+  },
+  "outputs/main_pre_v1/k1_s3__T_AS/tasks/富阳区.json": {
+    "bytes": 1501,
+    "sha256": "c49c53b45888eb6345c336683dceba40fbbabfbdc0dca53f239eae9d3325e166"
+  },
+  "outputs/main_pre_v1/k1_s3__T_AS/probs/临安区.npz": {
+    "bytes": 640390,
+    "sha256": "7a0eecb543d9b257179f9fec0088c3ffbf34db20bbf30950e71f7a7dea6c78b3"
+  },
+  "outputs/main_pre_v1/k1_s3__T_AS/tasks/临安区.json": {
+    "bytes": 1501,
+    "sha256": "0fd973539b3cc9349cab883b131cab79abaac3eebca69c0138002b446ac5e6db"
+  },
+  "outputs/main_pre_v1/k1_s3__T_A0/config.json": {
+    "bytes": 1584,
+    "sha256": "df2f34774470f187fefc949e5945e4ab4950c49de0b2ddec141b8c5284609485"
+  },
+  "outputs/main_pre_v1/k1_s3__T_A0/probs/天心区.npz": {
+    "bytes": 1719669,
+    "sha256": "75e6d8252bc1ce386c787efa1c00c15b9f55d80afa0d273a1226d2d21ae0074b"
+  },
+  "outputs/main_pre_v1/k1_s3__T_A0/tasks/天心区.json": {
+    "bytes": 1500,
+    "sha256": "b5e5208c2f0beb0dcc9e4a8afee004e91926807a70a2a3ae525c8ec26bb38190"
+  },
+  "outputs/main_pre_v1/k1_s3__T_A0/probs/芙蓉区.npz": {
+    "bytes": 1289231,
+    "sha256": "b20ed2524cc57cf1a9a02dd1c9a43c4430ef4a84b176f1f716a3ecf12a3ead13"
+  },
+  "outputs/main_pre_v1/k1_s3__T_A0/tasks/芙蓉区.json": {
+    "bytes": 1502,
+    "sha256": "f95feeef29dc3d56c7246ebc6be894b9609daf6d1a86f42222d288dee210a6ed"
+  },
+  "outputs/main_pre_v1/k1_s3__T_A0/probs/雨花区.npz": {
+    "bytes": 4739134,
+    "sha256": "bd21caced057bf2f88bd6f3712ce00674508c46e2b2c6e8f11d971d85a00101f"
+  },
+  "outputs/main_pre_v1/k1_s3__T_A0/tasks/雨花区.json": {
+    "bytes": 1502,
+    "sha256": "7863ea9f429b896fc497718d2a6a9f997e24242dd53bdd734f5189261721a926"
+  },
+  "outputs/main_pre_v1/k1_s3__T_A0/probs/开福区.npz": {
+    "bytes": 2372875,
+    "sha256": "b70b0b7af0b1588c237e001337e55c0c7c57249261defba5b404b2d1d84a9004"
+  },
+  "outputs/main_pre_v1/k1_s3__T_A0/tasks/开福区.json": {
+    "bytes": 1502,
+    "sha256": "9f94f549d0811c1c708cd522d70180268030af9a8a9b3b4d700ae2bb50dd660b"
+  },
+  "outputs/main_pre_v1/k1_s3__T_A0/probs/拱墅区.npz": {
+    "bytes": 2029063,
+    "sha256": "748e4ce5aa7eca822e385bc212918a9b5a98a61e93479c6e3917fc4ded217197"
+  },
+  "outputs/main_pre_v1/k1_s3__T_A0/tasks/拱墅区.json": {
+    "bytes": 1502,
+    "sha256": "64525e0fdea13c7f5322e703c9798f24538386a8dc30267526e908b3906d4973"
+  },
+  "outputs/main_pre_v1/k1_s3__T_A0/probs/萧山区.npz": {
+    "bytes": 2524032,
+    "sha256": "c88a21306976270360472a20ddab6b397079641140bdcfe8134953592f8a4258"
+  },
+  "outputs/main_pre_v1/k1_s3__T_A0/tasks/萧山区.json": {
+    "bytes": 1502,
+    "sha256": "e233a879800eaccf8078c943d235c99975fe697c9b115739ff2743df436a0437"
+  },
+  "outputs/main_pre_v1/k1_s3__T_A0/probs/富阳区.npz": {
+    "bytes": 673285,
+    "sha256": "cdbded21863a3421b92b4dcf48e95060f92b9fca30b11aa4edcee53b3e4e5c9b"
+  },
+  "outputs/main_pre_v1/k1_s3__T_A0/tasks/富阳区.json": {
+    "bytes": 1500,
+    "sha256": "704797901398f170b4b951e3c989150366afe39ba1a2aca43555ebb6721293a3"
+  },
+  "outputs/main_pre_v1/k1_s3__T_A0/probs/临安区.npz": {
+    "bytes": 681143,
+    "sha256": "ab3c945a9327e9c3391b3fd7896277a4dd9cb41a6c1f76589131ec7b050f433e"
+  },
+  "outputs/main_pre_v1/k1_s3__T_A0/tasks/临安区.json": {
+    "bytes": 1501,
+    "sha256": "874dc0cb8ad07f69da62f665e9f483e6c5e2ab0111ed08c7b9305e1af0a771a3"
+  },
+  "outputs/main_pre_v1/k1_s3__T_A1/config.json": {
+    "bytes": 1616,
+    "sha256": "24083d6a078c0768f4ac9addb9dd1aaa1c5555f78f07c06426949a4b9f649e40"
+  },
+  "outputs/main_pre_v1/k1_s3__T_A1/probs/天心区.npz": {
+    "bytes": 1724329,
+    "sha256": "b4a372c62800522ae80bd807ee2f02fc19e1d76f5ecb0a18240fdc9def53a7b8"
+  },
+  "outputs/main_pre_v1/k1_s3__T_A1/tasks/天心区.json": {
+    "bytes": 1501,
+    "sha256": "dfaa8e01a26a21b623d70e77921e2f866417f386606867381f23b1ca04915a47"
+  },
+  "outputs/main_pre_v1/k1_s3__T_A1/probs/芙蓉区.npz": {
+    "bytes": 1292178,
+    "sha256": "5ced0b0d9884b8710c1f394b287788a4b8551fa225e1028ed83155fc92f597be"
+  },
+  "outputs/main_pre_v1/k1_s3__T_A1/tasks/芙蓉区.json": {
+    "bytes": 1501,
+    "sha256": "f9b2a7034a16689c30607517de7efe65847d3dbec7c34109cef6bbdeb5c9c59b"
+  },
+  "outputs/main_pre_v1/k1_s3__T_A1/probs/雨花区.npz": {
+    "bytes": 4738114,
+    "sha256": "99d48483d26d60d2bb9a8444a4f9c27f43ec01f21f719dd4928e5a035039a105"
+  },
+  "outputs/main_pre_v1/k1_s3__T_A1/tasks/雨花区.json": {
+    "bytes": 1500,
+    "sha256": "fb11ae0a1bf903cb2cee0f5f4df9d31b00be689ea87c7effcd15db2c9f402b40"
+  },
+  "outputs/main_pre_v1/k1_s3__T_A1/probs/开福区.npz": {
+    "bytes": 2375528,
+    "sha256": "9c4f1c76c0fad0fc057e77ef1b99c87ff5ed6350cd34cada661341e754c2bc28"
+  },
+  "outputs/main_pre_v1/k1_s3__T_A1/tasks/开福区.json": {
+    "bytes": 1502,
+    "sha256": "9334ab3d99dea2cc93a5e490d1ca06a8e3ec800be0a7fd6d0aac72850c9dd55c"
+  },
+  "outputs/main_pre_v1/k1_s3__T_A1/probs/拱墅区.npz": {
+    "bytes": 2035026,
+    "sha256": "e2a2ac0890a9bdb35d762247311fc7977d75cd499867665d209986f241aee7a7"
+  },
+  "outputs/main_pre_v1/k1_s3__T_A1/tasks/拱墅区.json": {
+    "bytes": 1502,
+    "sha256": "1abab7b13ef157a77c356ee8cdba13c42c54d4eb3cb31184db4233ccd506680d"
+  },
+  "outputs/main_pre_v1/k1_s3__T_A1/probs/萧山区.npz": {
+    "bytes": 2525579,
+    "sha256": "de46d7606921e2207ea1405caa4754d67a895d2262171dfcd6b234f8433002cb"
+  },
+  "outputs/main_pre_v1/k1_s3__T_A1/tasks/萧山区.json": {
+    "bytes": 1501,
+    "sha256": "36c04e1e8d5813badbd04e4172cef3fb46bf9cc5b29271f93171db0401a249ae"
+  },
+  "outputs/main_pre_v1/k1_s3__T_A1/probs/富阳区.npz": {
+    "bytes": 674570,
+    "sha256": "abb058affca914eaab547c3ab6eadc13d75a7e22764b6ca1910147a215adee8f"
+  },
+  "outputs/main_pre_v1/k1_s3__T_A1/tasks/富阳区.json": {
+    "bytes": 1500,
+    "sha256": "472fa78a80b1f2e5239b13e71dd559dcdffedd7a912f816e1efe79e165353385"
+  },
+  "outputs/main_pre_v1/k1_s3__T_A1/probs/临安区.npz": {
+    "bytes": 643922,
+    "sha256": "a2364263005e249c437c1d0d77167b16beeb7acaa0c15c8f60732882ea451c66"
+  },
+  "outputs/main_pre_v1/k1_s3__T_A1/tasks/临安区.json": {
+    "bytes": 1500,
+    "sha256": "2aeaf95449597e2f5264d2a7cb54bff3c3ff64cac24259cb778121973c89e961"
+  },
+  "server_results/20261110-105500/README.md": {
+    "bytes": 6395,
+    "sha256": "7f2068a0a5e4a01e68dabd33308f4cfd37ead325726888e44cdf71848de4cf32"
+  },
+  "server_results/20261110-105500/baseline-integrity.json": {
+    "bytes": 251,
+    "sha256": "dc92fe6d8ab1c3e464305601732ac5b81c2629f2ce0d58e239c72f003659d6ff"
+  },
+  "server_results/20261110-105500/completion-summary.json": {
+    "bytes": 1129,
+    "sha256": "77c5133f3fdefc3a9d87eefbd51a6555a37a3eaca54f1d1f66027267a171d7f0"
+  },
+  "server_results/20261110-105500/execution.json": {
+    "bytes": 7732,
+    "sha256": "2d15a887be194102572c0755e5a797b629c77bd64730f6ba3958abdee982335d"
+  },
+  "server_results/20261110-105500/initial-condition-attempt1.json": {
+    "bytes": 1391,
+    "sha256": "4e78b9cf928cebe877261ed1d5fc877916897c91c42adc06c8c35dcd6c58d420"
+  },
+  "server_results/20261110-105500/pilot-attempt1.json": {
+    "bytes": 287,
+    "sha256": "666647112c9d434b2d1d9d919112504c68484519c5eaecd9f5211aa90167598b"
+  },
+  "server_results/20261110-105500/pilot-summary.json": {
+    "bytes": 2470,
+    "sha256": "41ba8311ec409fb691217d924e0a2b604db9eab27af8925de89e3f2996617c02"
+  },
+  "server_results/20261110-105500/preflight.json": {
+    "bytes": 2488,
+    "sha256": "6679b697ac842b726762065cd4bb021510ce64fa5c733887fc63f17da57ecda2"
+  },
+  "server_results/20261110-105500/school-zone-adaptation-plan.json": {
+    "bytes": 6443,
+    "sha256": "423f9c4117951c4c8a28cf2637ad9e809b93bdc6fa0b68889a2da2d02ab37801"
+  },
+  "server_results/20261110-105500/school-zone-adaptation-resume.patch": {
+    "bytes": 13407,
+    "sha256": "42dcd959645791343f1974475a8bc81589ff09905b84558de66851184307c8e1"
+  },
+  "server_results/20261110-105500/tasks.json": {
+    "bytes": 6443,
+    "sha256": "423f9c4117951c4c8a28cf2637ad9e809b93bdc6fa0b68889a2da2d02ab37801"
+  },
+  "scripts/resume_adaptation.py": {
+    "bytes": 16229,
+    "sha256": "132a5761e05765f098e2f221eb884f025ff2b66570de243ef477742624610eba"
+  },
+  "scripts/continue_server_experiment.py": {
+    "bytes": 5083,
+    "sha256": "423d452771e531ed0097ac951a5e703bbef64de75bd19037fb9cd64465a74c0e"
+  },
+  "scripts/package_server_results.py": {
+    "bytes": 7488,
+    "sha256": "ea21800ce8ddf6b84c16e79ff28da4fd320ff8c8075c29624c722815da75496e"
+  },
+  "SOURCE_MANIFEST.json": {
+    "bytes": 28469,
+    "sha256": "30e2e7a091875110b0a064e5cf2c2af448fa973dd4b3c1926d1d3981ecfab0bd"
+  },
+  "experiment_state/completed_districts.json": {
+    "bytes": 17149,
+    "sha256": "4322ba3e7b9a7f8bf399f6356d6e220097bada8b4a257ca521e429a35cb8a262"
+  },
+  "server_checks/k1_s1/雨花区.json": {
+    "bytes": 1391,
+    "sha256": "b48b9441a60c7e3ee0e2c691aa1f01e6d384d21108d1dd3cb2966bd01a6d7c67"
+  },
+  "pilot_baseline/config.json": {
+    "bytes": 1537,
+    "sha256": "038fbbd6faf22392d1dd59d9026ca0e310b570c08122aab148d6424a34b3cddd"
+  },
+  "pilot_baseline/probs/雨花区.npz": {
+    "bytes": 4739741,
+    "sha256": "4eedb0094d19085c1102b8beffe7106bafd67b6e51d5e3ed91d6df73aa502f24"
+  },
+  "pilot_baseline/tasks/雨花区.json": {
+    "bytes": 1637,
+    "sha256": "22a53ece17618658f35a35226670916a0353bdb93610c205a6ff52ee1850b003"
+  },
+  "server_logs/pilot.log": {
+    "bytes": 733,
+    "sha256": "1c39d610e624c776c306a5e09d3b18e699e4362c8dd9c449b504c7b73b21e9d6"
+  },
+  "server_logs/worker-0.log": {
+    "bytes": 6166,
+    "sha256": "e81be71fcf1e223b321ca42cd5f031f5aa16346ad07f4494539429dbcd5f0991"
+  },
+  "server_logs/worker-1.log": {
+    "bytes": 6230,
+    "sha256": "fefcc5d366b0c218e3a5233da2830947de72e9d474a90c3db6f7642a5a3db7e1"
+  },
+  "server_summary.json": {
+    "bytes": 21122,
+    "sha256": "a888902e6ff7930291259f74f54695dfc99a3d412ce8fe38e098d518c042dc7c"
+  }
+}

@@ -1,0 +1,791 @@
+{
+  "status": "complete",
+  "created_utc": "2026-11-10T12:08:07.517019+00:00",
+  "completed_tasks": 70,
+  "failed_tasks": 0,
+  "original_completed_tasks": 122,
+  "historical_baseline": {
+    "max_prob_diff": 9.5367431640625e-07,
+    "changed_predictions": 0,
+    "changed_correctness": 0,
+    "evaluated_sites": 793
+  },
+  "executed_commits": [
+    "878d09a20d6230f9670ee7ea126a7a7020431446"
+  ],
+  "total_fit_seconds": 2076.036784408614,
+  "maximum_reserved_bytes": 5047844864,
+  "tasks": [
+    {
+      "task": {
+        "group": "k0_s1",
+        "arm": "A1",
+        "district": "雨花区",
+        "shard": 0
+      },
+      "fit_seconds": 35.70941897109151,
+      "peak_cuda_reserved_bytes": 3412066304,
+      "execution_commit": "878d09a20d6230f9670ee7ea126a7a7020431446"
+    },
+    {
+      "task": {
+        "group": "k0_s1",
+        "arm": "A1",
+        "district": "开福区",
+        "shard": 1
+      },
+      "fit_seconds": 34.514314617961645,
+      "peak_cuda_reserved_bytes": 3735027712,
+      "execution_commit": "878d09a20d6230f9670ee7ea126a7a7020431446"
+    },
+    {
+      "task": {
+        "group": "k0_s1",
+        "arm": "A1",
+        "district": "拱墅区",
+        "shard": 0
+      },
+      "fit_seconds": 33.77884681895375,
+      "peak_cuda_reserved_bytes": 4156555264,
+      "execution_commit": "878d09a20d6230f9670ee7ea126a7a7020431446"
+    },
+    {
+      "task": {
+        "group": "k0_s1",
+        "arm": "A1",
+        "district": "萧山区",
+        "shard": 1
+      },
+      "fit_seconds": 33.424573589116335,
+      "peak_cuda_reserved_bytes": 3831496704,
+      "execution_commit": "878d09a20d6230f9670ee7ea126a7a7020431446"
+    },
+    {
+      "task": {
+        "group": "k0_s1",
+        "arm": "A1",
+        "district": "富阳区",
+        "shard": 0
+      },
+      "fit_seconds": 32.20937947323546,
+      "peak_cuda_reserved_bytes": 4156555264,
+      "execution_commit": "878d09a20d6230f9670ee7ea126a7a7020431446"
+    },
+    {
+      "task": {
+        "group": "k0_s1",
+        "arm": "A1",
+        "district": "临安区",
+        "shard": 1
+      },
+      "fit_seconds": 32.16989224590361,
+      "peak_cuda_reserved_bytes": 3831496704,
+      "execution_commit": "878d09a20d6230f9670ee7ea126a7a7020431446"
+    },
+    {
+      "task": {
+        "group": "k1_s1",
+        "arm": "AS",
+        "district": "雨花区",
+        "shard": 0
+      },
+      "fit_seconds": 25.03213772876188,
+      "peak_cuda_reserved_bytes": 4156555264,
+      "execution_commit": "878d09a20d6230f9670ee7ea126a7a7020431446"
+    },
+    {
+      "task": {
+        "group": "k1_s1",
+        "arm": "AS",
+        "district": "开福区",
+        "shard": 1
+      },
+      "fit_seconds": 26.714961825869977,
+      "peak_cuda_reserved_bytes": 4544528384,
+      "execution_commit": "878d09a20d6230f9670ee7ea126a7a7020431446"
+    },
+    {
+      "task": {
+        "group": "k1_s1",
+        "arm": "AS",
+        "district": "拱墅区",
+        "shard": 0
+      },
+      "fit_seconds": 25.499894683714956,
+      "peak_cuda_reserved_bytes": 4869586944,
+      "execution_commit": "878d09a20d6230f9670ee7ea126a7a7020431446"
+    },
+    {
+      "task": {
+        "group": "k1_s1",
+        "arm": "AS",
+        "district": "萧山区",
+        "shard": 1
+      },
+      "fit_seconds": 26.076872628182173,
+      "peak_cuda_reserved_bytes": 4544528384,
+      "execution_commit": "878d09a20d6230f9670ee7ea126a7a7020431446"
+    },
+    {
+      "task": {
+        "group": "k1_s1",
+        "arm": "AS",
+        "district": "富阳区",
+        "shard": 0
+      },
+      "fit_seconds": 22.409189672674984,
+      "peak_cuda_reserved_bytes": 4869586944,
+      "execution_commit": "878d09a20d6230f9670ee7ea126a7a7020431446"
+    },
+    {
+      "task": {
+        "group": "k1_s1",
+        "arm": "AS",
+        "district": "临安区",
+        "shard": 1
+      },
+      "fit_seconds": 27.003119012340903,
+      "peak_cuda_reserved_bytes": 4544528384,
+      "execution_commit": "878d09a20d6230f9670ee7ea126a7a7020431446"
+    },
+    {
+      "task": {
+        "group": "k1_s1",
+        "arm": "A0",
+        "district": "天心区",
+        "shard": 0
+      },
+      "fit_seconds": 25.939599421340972,
+      "peak_cuda_reserved_bytes": 4869586944,
+      "execution_commit": "878d09a20d6230f9670ee7ea126a7a7020431446"
+    },
+    {
+      "task": {
+        "group": "k1_s1",
+        "arm": "A0",
+        "district": "芙蓉区",
+        "shard": 1
+      },
+      "fit_seconds": 26.403703982010484,
+      "peak_cuda_reserved_bytes": 4544528384,
+      "execution_commit": "878d09a20d6230f9670ee7ea126a7a7020431446"
+    },
+    {
+      "task": {
+        "group": "k1_s1",
+        "arm": "A0",
+        "district": "雨花区",
+        "shard": 0
+      },
+      "fit_seconds": 28.460384593810886,
+      "peak_cuda_reserved_bytes": 4869586944,
+      "execution_commit": "878d09a20d6230f9670ee7ea126a7a7020431446"
+    },
+    {
+      "task": {
+        "group": "k1_s1",
+        "arm": "A0",
+        "district": "开福区",
+        "shard": 1
+      },
+      "fit_seconds": 26.737941828090698,
+      "peak_cuda_reserved_bytes": 4544528384,
+      "execution_commit": "878d09a20d6230f9670ee7ea126a7a7020431446"
+    },
+    {
+      "task": {
+        "group": "k1_s1",
+        "arm": "A0",
+        "district": "拱墅区",
+        "shard": 0
+      },
+      "fit_seconds": 27.419058869127184,
+      "peak_cuda_reserved_bytes": 4869586944,
+      "execution_commit": "878d09a20d6230f9670ee7ea126a7a7020431446"
+    },
+    {
+      "task": {
+        "group": "k1_s1",
+        "arm": "A0",
+        "district": "萧山区",
+        "shard": 1
+      },
+      "fit_seconds": 26.913933943025768,
+      "peak_cuda_reserved_bytes": 4544528384,
+      "execution_commit": "878d09a20d6230f9670ee7ea126a7a7020431446"
+    },
+    {
+      "task": {
+        "group": "k1_s1",
+        "arm": "A0",
+        "district": "富阳区",
+        "shard": 0
+      },
+      "fit_seconds": 26.258640890941024,
+      "peak_cuda_reserved_bytes": 4869586944,
+      "execution_commit": "878d09a20d6230f9670ee7ea126a7a7020431446"
+    },
+    {
+      "task": {
+        "group": "k1_s1",
+        "arm": "A0",
+        "district": "临安区",
+        "shard": 1
+      },
+      "fit_seconds": 24.963963137939572,
+      "peak_cuda_reserved_bytes": 4544528384,
+      "execution_commit": "878d09a20d6230f9670ee7ea126a7a7020431446"
+    },
+    {
+      "task": {
+        "group": "k1_s1",
+        "arm": "A1",
+        "district": "天心区",
+        "shard": 0
+      },
+      "fit_seconds": 31.064033533912152,
+      "peak_cuda_reserved_bytes": 5047844864,
+      "execution_commit": "878d09a20d6230f9670ee7ea126a7a7020431446"
+    },
+    {
+      "task": {
+        "group": "k1_s1",
+        "arm": "A1",
+        "district": "芙蓉区",
+        "shard": 1
+      },
+      "fit_seconds": 35.2474646163173,
+      "peak_cuda_reserved_bytes": 4722786304,
+      "execution_commit": "878d09a20d6230f9670ee7ea126a7a7020431446"
+    },
+    {
+      "task": {
+        "group": "k1_s1",
+        "arm": "A1",
+        "district": "雨花区",
+        "shard": 0
+      },
+      "fit_seconds": 35.555754342116416,
+      "peak_cuda_reserved_bytes": 3930062848,
+      "execution_commit": "878d09a20d6230f9670ee7ea126a7a7020431446"
+    },
+    {
+      "task": {
+        "group": "k1_s1",
+        "arm": "A1",
+        "district": "开福区",
+        "shard": 1
+      },
+      "fit_seconds": 34.366178011056036,
+      "peak_cuda_reserved_bytes": 4722786304,
+      "execution_commit": "878d09a20d6230f9670ee7ea126a7a7020431446"
+    },
+    {
+      "task": {
+        "group": "k1_s1",
+        "arm": "A1",
+        "district": "拱墅区",
+        "shard": 0
+      },
+      "fit_seconds": 34.0694103599526,
+      "peak_cuda_reserved_bytes": 5047844864,
+      "execution_commit": "878d09a20d6230f9670ee7ea126a7a7020431446"
+    },
+    {
+      "task": {
+        "group": "k1_s1",
+        "arm": "A1",
+        "district": "萧山区",
+        "shard": 1
+      },
+      "fit_seconds": 34.343571186996996,
+      "peak_cuda_reserved_bytes": 4722786304,
+      "execution_commit": "878d09a20d6230f9670ee7ea126a7a7020431446"
+    },
+    {
+      "task": {
+        "group": "k1_s1",
+        "arm": "A1",
+        "district": "富阳区",
+        "shard": 0
+      },
+      "fit_seconds": 33.29382902709767,
+      "peak_cuda_reserved_bytes": 5047844864,
+      "execution_commit": "878d09a20d6230f9670ee7ea126a7a7020431446"
+    },
+    {
+      "task": {
+        "group": "k1_s1",
+        "arm": "A1",
+        "district": "临安区",
+        "shard": 1
+      },
+      "fit_seconds": 33.0236686100252,
+      "peak_cuda_reserved_bytes": 4794089472,
+      "execution_commit": "878d09a20d6230f9670ee7ea126a7a7020431446"
+    },
+    {
+      "task": {
+        "group": "k1_s2",
+        "arm": "AS",
+        "district": "拱墅区",
+        "shard": 0
+      },
+      "fit_seconds": 26.412788923829794,
+      "peak_cuda_reserved_bytes": 5047844864,
+      "execution_commit": "878d09a20d6230f9670ee7ea126a7a7020431446"
+    },
+    {
+      "task": {
+        "group": "k1_s2",
+        "arm": "AS",
+        "district": "萧山区",
+        "shard": 1
+      },
+      "fit_seconds": 26.127306268084794,
+      "peak_cuda_reserved_bytes": 4794089472,
+      "execution_commit": "878d09a20d6230f9670ee7ea126a7a7020431446"
+    },
+    {
+      "task": {
+        "group": "k1_s2",
+        "arm": "AS",
+        "district": "富阳区",
+        "shard": 0
+      },
+      "fit_seconds": 25.411621087230742,
+      "peak_cuda_reserved_bytes": 5047844864,
+      "execution_commit": "878d09a20d6230f9670ee7ea126a7a7020431446"
+    },
+    {
+      "task": {
+        "group": "k1_s2",
+        "arm": "AS",
+        "district": "临安区",
+        "shard": 1
+      },
+      "fit_seconds": 25.086616910994053,
+      "peak_cuda_reserved_bytes": 4794089472,
+      "execution_commit": "878d09a20d6230f9670ee7ea126a7a7020431446"
+    },
+    {
+      "task": {
+        "group": "k1_s2",
+        "arm": "A0",
+        "district": "天心区",
+        "shard": 0
+      },
+      "fit_seconds": 25.923190774861723,
+      "peak_cuda_reserved_bytes": 5047844864,
+      "execution_commit": "878d09a20d6230f9670ee7ea126a7a7020431446"
+    },
+    {
+      "task": {
+        "group": "k1_s2",
+        "arm": "A0",
+        "district": "芙蓉区",
+        "shard": 1
+      },
+      "fit_seconds": 26.844853737857193,
+      "peak_cuda_reserved_bytes": 4794089472,
+      "execution_commit": "878d09a20d6230f9670ee7ea126a7a7020431446"
+    },
+    {
+      "task": {
+        "group": "k1_s2",
+        "arm": "A0",
+        "district": "雨花区",
+        "shard": 0
+      },
+      "fit_seconds": 27.79273422760889,
+      "peak_cuda_reserved_bytes": 5047844864,
+      "execution_commit": "878d09a20d6230f9670ee7ea126a7a7020431446"
+    },
+    {
+      "task": {
+        "group": "k1_s2",
+        "arm": "A0",
+        "district": "开福区",
+        "shard": 1
+      },
+      "fit_seconds": 27.066884068772197,
+      "peak_cuda_reserved_bytes": 4794089472,
+      "execution_commit": "878d09a20d6230f9670ee7ea126a7a7020431446"
+    },
+    {
+      "task": {
+        "group": "k1_s2",
+        "arm": "A0",
+        "district": "拱墅区",
+        "shard": 0
+      },
+      "fit_seconds": 26.34606823325157,
+      "peak_cuda_reserved_bytes": 5047844864,
+      "execution_commit": "878d09a20d6230f9670ee7ea126a7a7020431446"
+    },
+    {
+      "task": {
+        "group": "k1_s2",
+        "arm": "A0",
+        "district": "萧山区",
+        "shard": 1
+      },
+      "fit_seconds": 26.85814277874306,
+      "peak_cuda_reserved_bytes": 4794089472,
+      "execution_commit": "878d09a20d6230f9670ee7ea126a7a7020431446"
+    },
+    {
+      "task": {
+        "group": "k1_s2",
+        "arm": "A0",
+        "district": "富阳区",
+        "shard": 0
+      },
+      "fit_seconds": 24.225833129137754,
+      "peak_cuda_reserved_bytes": 5047844864,
+      "execution_commit": "878d09a20d6230f9670ee7ea126a7a7020431446"
+    },
+    {
+      "task": {
+        "group": "k1_s2",
+        "arm": "A0",
+        "district": "临安区",
+        "shard": 1
+      },
+      "fit_seconds": 26.310174578335136,
+      "peak_cuda_reserved_bytes": 4794089472,
+      "execution_commit": "878d09a20d6230f9670ee7ea126a7a7020431446"
+    },
+    {
+      "task": {
+        "group": "k1_s2",
+        "arm": "A1",
+        "district": "天心区",
+        "shard": 0
+      },
+      "fit_seconds": 34.52384928520769,
+      "peak_cuda_reserved_bytes": 5047844864,
+      "execution_commit": "878d09a20d6230f9670ee7ea126a7a7020431446"
+    },
+    {
+      "task": {
+        "group": "k1_s2",
+        "arm": "A1",
+        "district": "芙蓉区",
+        "shard": 1
+      },
+      "fit_seconds": 35.114718195050955,
+      "peak_cuda_reserved_bytes": 4794089472,
+      "execution_commit": "878d09a20d6230f9670ee7ea126a7a7020431446"
+    },
+    {
+      "task": {
+        "group": "k1_s2",
+        "arm": "A1",
+        "district": "雨花区",
+        "shard": 0
+      },
+      "fit_seconds": 34.84908973891288,
+      "peak_cuda_reserved_bytes": 5047844864,
+      "execution_commit": "878d09a20d6230f9670ee7ea126a7a7020431446"
+    },
+    {
+      "task": {
+        "group": "k1_s2",
+        "arm": "A1",
+        "district": "开福区",
+        "shard": 1
+      },
+      "fit_seconds": 34.359230503905565,
+      "peak_cuda_reserved_bytes": 4794089472,
+      "execution_commit": "878d09a20d6230f9670ee7ea126a7a7020431446"
+    },
+    {
+      "task": {
+        "group": "k1_s2",
+        "arm": "A1",
+        "district": "拱墅区",
+        "shard": 0
+      },
+      "fit_seconds": 34.69174683606252,
+      "peak_cuda_reserved_bytes": 5047844864,
+      "execution_commit": "878d09a20d6230f9670ee7ea126a7a7020431446"
+    },
+    {
+      "task": {
+        "group": "k1_s2",
+        "arm": "A1",
+        "district": "萧山区",
+        "shard": 1
+      },
+      "fit_seconds": 34.518516946118325,
+      "peak_cuda_reserved_bytes": 4794089472,
+      "execution_commit": "878d09a20d6230f9670ee7ea126a7a7020431446"
+    },
+    {
+      "task": {
+        "group": "k1_s2",
+        "arm": "A1",
+        "district": "富阳区",
+        "shard": 0
+      },
+      "fit_seconds": 33.25608271174133,
+      "peak_cuda_reserved_bytes": 5047844864,
+      "execution_commit": "878d09a20d6230f9670ee7ea126a7a7020431446"
+    },
+    {
+      "task": {
+        "group": "k1_s2",
+        "arm": "A1",
+        "district": "临安区",
+        "shard": 1
+      },
+      "fit_seconds": 33.34980128519237,
+      "peak_cuda_reserved_bytes": 4794089472,
+      "execution_commit": "878d09a20d6230f9670ee7ea126a7a7020431446"
+    },
+    {
+      "task": {
+        "group": "k1_s3",
+        "arm": "AS",
+        "district": "雨花区",
+        "shard": 0
+      },
+      "fit_seconds": 27.147671548184007,
+      "peak_cuda_reserved_bytes": 5047844864,
+      "execution_commit": "878d09a20d6230f9670ee7ea126a7a7020431446"
+    },
+    {
+      "task": {
+        "group": "k1_s3",
+        "arm": "AS",
+        "district": "开福区",
+        "shard": 1
+      },
+      "fit_seconds": 25.79461356624961,
+      "peak_cuda_reserved_bytes": 4794089472,
+      "execution_commit": "878d09a20d6230f9670ee7ea126a7a7020431446"
+    },
+    {
+      "task": {
+        "group": "k1_s3",
+        "arm": "AS",
+        "district": "拱墅区",
+        "shard": 0
+      },
+      "fit_seconds": 26.19189556594938,
+      "peak_cuda_reserved_bytes": 5047844864,
+      "execution_commit": "878d09a20d6230f9670ee7ea126a7a7020431446"
+    },
+    {
+      "task": {
+        "group": "k1_s3",
+        "arm": "AS",
+        "district": "萧山区",
+        "shard": 1
+      },
+      "fit_seconds": 26.052489149849862,
+      "peak_cuda_reserved_bytes": 4794089472,
+      "execution_commit": "878d09a20d6230f9670ee7ea126a7a7020431446"
+    },
+    {
+      "task": {
+        "group": "k1_s3",
+        "arm": "AS",
+        "district": "富阳区",
+        "shard": 0
+      },
+      "fit_seconds": 26.711399692110717,
+      "peak_cuda_reserved_bytes": 5047844864,
+      "execution_commit": "878d09a20d6230f9670ee7ea126a7a7020431446"
+    },
+    {
+      "task": {
+        "group": "k1_s3",
+        "arm": "AS",
+        "district": "临安区",
+        "shard": 1
+      },
+      "fit_seconds": 26.588646011892706,
+      "peak_cuda_reserved_bytes": 4794089472,
+      "execution_commit": "878d09a20d6230f9670ee7ea126a7a7020431446"
+    },
+    {
+      "task": {
+        "group": "k1_s3",
+        "arm": "A0",
+        "district": "天心区",
+        "shard": 0
+      },
+      "fit_seconds": 26.6890338328667,
+      "peak_cuda_reserved_bytes": 5047844864,
+      "execution_commit": "878d09a20d6230f9670ee7ea126a7a7020431446"
+    },
+    {
+      "task": {
+        "group": "k1_s3",
+        "arm": "A0",
+        "district": "芙蓉区",
+        "shard": 1
+      },
+      "fit_seconds": 27.292181129101664,
+      "peak_cuda_reserved_bytes": 4794089472,
+      "execution_commit": "878d09a20d6230f9670ee7ea126a7a7020431446"
+    },
+    {
+      "task": {
+        "group": "k1_s3",
+        "arm": "A0",
+        "district": "雨花区",
+        "shard": 0
+      },
+      "fit_seconds": 27.482312079984695,
+      "peak_cuda_reserved_bytes": 5047844864,
+      "execution_commit": "878d09a20d6230f9670ee7ea126a7a7020431446"
+    },
+    {
+      "task": {
+        "group": "k1_s3",
+        "arm": "A0",
+        "district": "开福区",
+        "shard": 1
+      },
+      "fit_seconds": 26.446685460861772,
+      "peak_cuda_reserved_bytes": 4794089472,
+      "execution_commit": "878d09a20d6230f9670ee7ea126a7a7020431446"
+    },
+    {
+      "task": {
+        "group": "k1_s3",
+        "arm": "A0",
+        "district": "拱墅区",
+        "shard": 0
+      },
+      "fit_seconds": 27.527955130208284,
+      "peak_cuda_reserved_bytes": 5047844864,
+      "execution_commit": "878d09a20d6230f9670ee7ea126a7a7020431446"
+    },
+    {
+      "task": {
+        "group": "k1_s3",
+        "arm": "A0",
+        "district": "萧山区",
+        "shard": 1
+      },
+      "fit_seconds": 26.969907549209893,
+      "peak_cuda_reserved_bytes": 4794089472,
+      "execution_commit": "878d09a20d6230f9670ee7ea126a7a7020431446"
+    },
+    {
+      "task": {
+        "group": "k1_s3",
+        "arm": "A0",
+        "district": "富阳区",
+        "shard": 0
+      },
+      "fit_seconds": 26.40230866894126,
+      "peak_cuda_reserved_bytes": 5047844864,
+      "execution_commit": "878d09a20d6230f9670ee7ea126a7a7020431446"
+    },
+    {
+      "task": {
+        "group": "k1_s3",
+        "arm": "A0",
+        "district": "临安区",
+        "shard": 1
+      },
+      "fit_seconds": 26.190200773067772,
+      "peak_cuda_reserved_bytes": 4794089472,
+      "execution_commit": "878d09a20d6230f9670ee7ea126a7a7020431446"
+    },
+    {
+      "task": {
+        "group": "k1_s3",
+        "arm": "A1",
+        "district": "天心区",
+        "shard": 0
+      },
+      "fit_seconds": 34.25061673624441,
+      "peak_cuda_reserved_bytes": 5047844864,
+      "execution_commit": "878d09a20d6230f9670ee7ea126a7a7020431446"
+    },
+    {
+      "task": {
+        "group": "k1_s3",
+        "arm": "A1",
+        "district": "芙蓉区",
+        "shard": 1
+      },
+      "fit_seconds": 35.16636968869716,
+      "peak_cuda_reserved_bytes": 4794089472,
+      "execution_commit": "878d09a20d6230f9670ee7ea126a7a7020431446"
+    },
+    {
+      "task": {
+        "group": "k1_s3",
+        "arm": "A1",
+        "district": "雨花区",
+        "shard": 0
+      },
+      "fit_seconds": 35.3511436926201,
+      "peak_cuda_reserved_bytes": 5047844864,
+      "execution_commit": "878d09a20d6230f9670ee7ea126a7a7020431446"
+    },
+    {
+      "task": {
+        "group": "k1_s3",
+        "arm": "A1",
+        "district": "开福区",
+        "shard": 1
+      },
+      "fit_seconds": 34.319740772712976,
+      "peak_cuda_reserved_bytes": 4794089472,
+      "execution_commit": "878d09a20d6230f9670ee7ea126a7a7020431446"
+    },
+    {
+      "task": {
+        "group": "k1_s3",
+        "arm": "A1",
+        "district": "拱墅区",
+        "shard": 0
+      },
+      "fit_seconds": 34.974451068323106,
+      "peak_cuda_reserved_bytes": 5047844864,
+      "execution_commit": "878d09a20d6230f9670ee7ea126a7a7020431446"
+    },
+    {
+      "task": {
+        "group": "k1_s3",
+        "arm": "A1",
+        "district": "萧山区",
+        "shard": 1
+      },
+      "fit_seconds": 34.46335918223485,
+      "peak_cuda_reserved_bytes": 4794089472,
+      "execution_commit": "878d09a20d6230f9670ee7ea126a7a7020431446"
+    },
+    {
+      "task": {
+        "group": "k1_s3",
+        "arm": "A1",
+        "district": "富阳区",
+        "shard": 0
+      },
+      "fit_seconds": 33.34394225617871,
+      "peak_cuda_reserved_bytes": 5047844864,
+      "execution_commit": "878d09a20d6230f9670ee7ea126a7a7020431446"
+    },
+    {
+      "task": {
+        "group": "k1_s3",
+        "arm": "A1",
+        "district": "临安区",
+        "shard": 1
+      },
+      "fit_seconds": 33.00687301065773,
+      "peak_cuda_reserved_bytes": 4794089472,
+      "execution_commit": "878d09a20d6230f9670ee7ea126a7a7020431446"
+    }
+  ],
+  "evaluation": "Server completion only; combine with the original 122 tasks and score on the original machine under the frozen pre_v1 protocol."
+}

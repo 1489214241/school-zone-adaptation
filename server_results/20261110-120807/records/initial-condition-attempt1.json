@@ -1,0 +1,53 @@
+{
+  "initial_condition": {
+    "passed": true,
+    "max_prob_diff": 0.0,
+    "sites": 1298,
+    "seeds": [
+      20261131,
+      20261132,
+      20261133,
+      20261134,
+      20261135,
+      20261136,
+      20261137,
+      20261138,
+      20261139,
+      20261140
+    ],
+    "comparison": "torch.equal"
+  },
+  "environment": {
+    "python": "3.12.3",
+    "platform": "Linux-6.8.0-146-generic-x86_64-with-glibc2.39",
+    "torch": "2.7.1+cu128",
+    "cuda": "12.8",
+    "cudnn": 90701,
+    "driver": "595.99.02",
+    "cuda_visible_devices": "0",
+    "gpu": "NVIDIA GeForce RTX 5090",
+    "gpu_uuid": "71b4b381-80de-6b4e-f3d9-a8648e581e6b",
+    "gpu_total_bytes": 33670758400,
+    "compute_capability": [
+      12,
+      0
+    ],
+    "cublas_workspace_config": ":4096:8",
+    "deterministic_algorithms": true,
+    "matmul_allow_tf32": false,
+    "cudnn_allow_tf32": false,
+    "cudnn_benchmark": false,
+    "data_dependencies": {
+      "numpy": "1.26.4",
+      "scipy": "1.13.1",
+      "shapely": "2.1.1"
+    },
+    "git_commit": "bd87d370089501192023d9c4e0b2ac6d34937a9d",
+    "resume_script_sha256": "7f386fed810961ccffee811a9fbc55dd92a49bc28c4e054359989fa3ac9cac20",
+    "source_manifest_sha256": "30e2e7a091875110b0a064e5cf2c2af448fa973dd4b3c1926d1d3981ecfab0bd"
+  },
+  "config": {
+    "bytes": 1570,
+    "sha256": "811ac10f9d0bb9087117b214fa2f19c33e806a7b46e8b49d35833fa02d6a2cb8"
+  }
+}
